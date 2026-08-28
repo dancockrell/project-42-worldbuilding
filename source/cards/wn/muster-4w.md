@@ -2,6 +2,7 @@
 faction: wn
 type: Unit
 tier: S
+status: review
 
 ## Draw
 
