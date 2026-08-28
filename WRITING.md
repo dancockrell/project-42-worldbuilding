@@ -64,7 +64,21 @@ No line of the story tells the reader what to think. The construction does the
 arguing. If your last paragraph explains the point, cut the last paragraph —
 the story was already over.
 
-### Paperwork is not a plot
+### Hard rule: no paperwork in the deck, at all
+
+**Escalated 28 Aug 2026 past "not the plot" to "not present":** *"there
+should be no paperwork in the whole deck. no memorandums orders or anything
+of the like. these are bad card design."*
+
+No card is a memorandum, an order, a form, a report, a requisition, a
+ledger, a file, a letter-as-document, or any variant. Not as the subject,
+not as a background prop, not in the image caption, not as a card name. If
+a piece of paper would appear in the frame of the image, cut it or replace
+it with something that is not paper. This is a design constraint on the
+1500-card set, not a style preference — treat it the same as the iconography
+rule in `ART-SPEC.md`.
+
+### Paperwork is not a plot — the reasoning, kept for the record
 
 **Rejected harder, same day, same batch:** it wasn't only the ending. Every
 one of fifty-one cards was actually *about* a document — a report, a
