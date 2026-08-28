@@ -16,7 +16,7 @@ only thing a session cannot misreport about itself, so the handle is the key.
 | Editor (LM2) | `downloads-c4` | held |
 | Editor | *unassigned* | |
 | Editor | *unassigned* | |
-| Writer — Project 42 | *unassigned* | |
+| Writer — Project 42 | `downloads-9c` | held |
 | Writer — Hyakki Yakō | *unassigned* | |
 
 ## Confirmed *not* this fleet
