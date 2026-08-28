@@ -2,7 +2,7 @@
 faction: hy
 type: Unit
 tier: A
-status: review
+status: accepted
 image_caption: A checkpoint at dusk, a woman in uniform standing exactly
 still while men move around her; her shadow on the guardhouse wall holds a
 shape the lamp behind her does not explain.

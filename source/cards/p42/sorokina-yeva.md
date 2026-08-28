@@ -2,7 +2,7 @@
 faction: p42
 type: Ace
 tier: A
-status: review
+status: accepted
 image_caption: A cipher desk at night, three columns of transposed
 figures under a gooseneck lamp; a fourth column, started and abandoned, in
 a different pencil, pushed to the edge of the blotter rather than thrown
