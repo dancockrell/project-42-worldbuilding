@@ -8,6 +8,16 @@ sense of identity and gets a handle it cannot read, so two sessions can both
 believe in good faith that they are the same Lore Master. The handle is the
 only thing a session cannot misreport about itself, so the handle is the key.
 
+**A second trap, found 28 Aug 2026 after a machine restart: an old handle can
+be silently reused by an unrelated session.** Prime 1 messaged a handle
+recorded here as LM3 (`downloads-ae`) after a restart, and got a reply from a
+completely different project (dr-companion) that happened to spin up under
+the same handle afterward. The handle was not stale in the usual sense — it
+was live and answering, just to someone else. **After any restart, treat
+every handle in this table as unconfirmed until its holder replies from it
+again** — do not assume a role is still occupied just because a message to
+that handle goes through.
+
 **Review process changed 28 Aug 2026 — single reviewer now, not four. See
 `REVIEW.md`.** The three-editor seats (LM2, LM3, and the open third) are
 retired; those sessions are reassigned to writing below, where the queue
