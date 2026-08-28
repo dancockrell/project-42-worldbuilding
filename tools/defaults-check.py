@@ -67,6 +67,25 @@ FACTS = [
         "retired": ["general brehm-sandt", "colonel brehm-sandt",
                     "herr brehm-sandt"],
     },
+    {
+        # Found reading iwasaki-chiyo.md (HY writer's first card) against the
+        # owner volume before any editor had judged it. Not the same fact as
+        # the wiki's 38->41 fused-count fix, though it looks like it -- that
+        # fix was "38 is wrong, 41 is right." Here the owner volume is
+        # DELIBERATELY unresolved: forty-one, forty-two if Iwasaki herself is
+        # counted, and the programme has never decided. A flat "thirty-eight"
+        # collapses an open question the volume states on purpose, which is
+        # worse than an ordinary stale number -- it is the one card where
+        # Iwasaki's own count status is the subject, asserting a number that
+        # is not even a candidate answer.
+        "subject": "Iwasaki",
+        "owner": "source/volumes/WORLD-THE-FUSED.md",
+        "attribute": "The fused count as it bears on Iwasaki (41, or 42 if she "
+                      "is counted -- deliberately undecided, never a flat 38)",
+        "owner_required": "Forty-two if the woman in Kanazawa is counted",
+        "retired": ["thirty-eight soldiers", "chose thirty-eight",
+                    "the way it chose thirty-eight"],
+    },
 ]
 
 
