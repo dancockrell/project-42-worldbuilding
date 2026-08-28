@@ -10,9 +10,9 @@ beside her.
 ## Draw
 
 Selected in 1942 and never told, never inducted, never trained — folklore
-chosen her the way it chose thirty-eight soldiers, and then did nothing else
-about it, leaving a shopkeeper who mends other people's kimono to work out,
-alone, from four repeated questions, what she is.
+chosen her the way it chose the rest of the roster, and then did nothing
+else about it, leaving a shopkeeper who mends other people's kimono to
+work out, alone, from four repeated questions, what she is.
 
 An officer visits twice a year with a form. She has answered *no* to all
 four questions since the second visit. She is lying every time, and she is
