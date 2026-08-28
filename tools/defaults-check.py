@@ -86,6 +86,36 @@ FACTS = [
         "retired": ["thirty-eight soldiers", "chose thirty-eight",
                     "the way it chose thirty-eight"],
     },
+    {
+        # NOT a substring check this mechanism can actually enforce -- kept
+        # here as a citation anchor, not a working guard, and the difference
+        # matters. Found reading deel-marcus.md (accepted) against
+        # WORLD-CAMP-IRON-BELL.md: canon states Deel is "Half-deaf," and that
+        # the line "running the apparatus by ear" is the volume's own idiom
+        # for improvising without documentation -- not a claim about acute
+        # hearing. The card takes "by ear" literally and builds all 500 words
+        # of prose on exceptional listening (title: "THE SOUND A BUS MAKES
+        # BEFORE IT DOESN'T"; "ear an inch off the housing"; "listened every
+        # night for six years"), never mentioning deafness once.
+        #
+        # This is an OMISSION defect, not a wrong-word defect -- the card
+        # never states the wrong fact, it just never states the right one and
+        # writes as though the opposite were true. A retired-substring list
+        # can only catch a card that says the wrong thing in so many words; it
+        # cannot catch a card that says nothing and leans on an assumption.
+        # Leaving `retired` empty rather than reaching for near-miss phrases
+        # ("perfect hearing", "keen hearing") that would not have matched this
+        # card either and would give false confidence that the mechanism
+        # covers this class. It does not. This entry exists so a human
+        # revisiting deel-marcus.md finds the citation in one place rather
+        # than re-deriving it, not because the tool would have caught it.
+        "subject": "Deel",
+        "owner": "source/volumes/WORLD-CAMP-IRON-BELL.md",
+        "attribute": "Deel is half-deaf; \"by ear\" is the volume's idiom for "
+                      "improvising, not a claim about his hearing",
+        "owner_required": "Half-deaf, unhurried",
+        "retired": [],
+    },
 ]
 
 
