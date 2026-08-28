@@ -45,7 +45,7 @@ a form has been signed; the Office has never needed him breathing to use
 him and will not stop for it now.
 
 *The suture can be redone* will not move him either. A second surgeon
-this afternoon is a cost against the theatre schedule, and Section VI
+this afternoon is a cost against the theatre schedule, and Section Six
 has already queried the theatre schedule twice this quarter.
 
 She writes, instead, on a requisition form she carries for exactly this
