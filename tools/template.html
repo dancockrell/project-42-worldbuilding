@@ -42,6 +42,17 @@ a{color:var(--accent)}
   letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin:0;
 }
 .lede{font-size:1.15rem;color:var(--dim);margin-bottom:2.5rem}
+figure{margin:1.6rem 0 2.2rem}
+figure img{width:100%;display:block;border:1px solid var(--rule);border-radius:3px}
+figure.pending .plate{
+  aspect-ratio:4/3;border:1px dashed var(--rule);border-radius:3px;
+  background:repeating-linear-gradient(45deg,transparent,transparent 9px,var(--rule) 9px,var(--rule) 10px);
+  opacity:.5;
+}
+figcaption{
+  font:400 13px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--dim);margin-top:.6rem;
+}
 .bio{
   background:var(--panel);border:1px solid var(--rule);border-left:3px solid var(--accent);
   padding:1.15rem 1.25rem .1rem;margin:0 0 2.6rem;border-radius:3px;

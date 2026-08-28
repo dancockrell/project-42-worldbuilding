@@ -3,7 +3,7 @@ faction: wn
 type: Unit
 tier: S
 
-## Bio
+## Draw
 
 Four hundred pounds. Runs down a horse. Comes out of the kennels at
 Hollernbruch with a brass plate riveted behind the ear, because the Office

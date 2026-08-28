@@ -58,11 +58,15 @@ def parse_card(path):
         return None
     card["title"] = m.group(1).strip()
 
-    for key in ("faction", "type", "tier"):
+    for key in ("faction", "type", "tier", "image", "image_caption"):
         km = re.search(r"^%s:\s*(.+)$" % key, text, re.M | re.I)
         card[key] = km.group(1).strip() if km else ""
 
-    bio = re.search(r"^##\s+Bio\s*$(.*?)(?=^##\s|\Z)", text, re.M | re.S)
+    # "Draw" is the current heading. "Bio" is accepted so the first entries
+    # written before the rename keep building rather than silently losing
+    # their hundred words to an empty panel.
+    bio = re.search(r"^##\s+(?:Draw|Bio)\s*$(.*?)(?=^##\s|\Z)", text,
+                    re.M | re.S)
     card["bio"] = bio.group(1).strip() if bio else ""
 
     story = re.search(r"^##\s+Story\s*$(.*?)(?=^##\s|\Z)", text, re.M | re.S)
@@ -171,6 +175,18 @@ def main():
                 (" &middot; <b>%s tier</b>" % html.escape(c["tier"]))
                 if c["tier"] else ""),
             "<h1>%s</h1>" % inline(c["title"]),
+        ]
+        if c["image"]:
+            body.append(
+                '<figure><img src="../%s" alt="%s" loading="lazy">'
+                '<figcaption>%s</figcaption></figure>'
+                % (html.escape(c["image"]),
+                   html.escape(c["image_caption"] or c["title"]),
+                   inline(c["image_caption"])))
+        else:
+            body.append('<figure class="pending"><div class="plate"></div>'
+                        '<figcaption>Art pending.</figcaption></figure>')
+        body += [
             '<section class="bio">%s</section>' % prose(c["bio"]),
             '<section class="story">',
         ]
