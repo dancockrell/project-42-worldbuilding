@@ -2,9 +2,10 @@
 faction: p42
 type: Ace
 tier: S
-status: accepted
-image_caption: A typed memorandum, four pages, unsigned at the bottom where a
-signature block waits; a paperclip holds a fifth page that is blank.
+status: revise
+image_caption: Bright braced against the Line Shed rail, both hands on the
+coupling, current visibly running up both arms; behind her the second
+chair sits empty.
 
 ## Draw
 
@@ -13,59 +14,68 @@ across four men without killing a single one of them, an afternoon that
 earned her a commendation and a court-martial in the same report, for the
 same act, because the Army had no other way to file it.
 
-She keeps every requisition she has ever been denied. Says it is for the
-memoir. Command suspects it is a battery, and it might be both — four pages
-in her own hand, in a drawer, arguing a case she has never sent, because she
-has done the arithmetic on what happens to her if it is answered, and has
-not liked either answer.
+Every retrieval runs on a budgeted draw and a safety margin nobody has ever
+tested past. Bright has done the arithmetic in her own body, standing at
+the coupling, more times than anyone at Iron Bell, and she is the only
+person alive who could tell you, from the inside, exactly how much further
+the margin actually goes.
 
 ## Story
 
-### PARAGRAPH SEVEN
+### THE SECOND CHAIR
 
-The memorandum took her eleven nights to write and one to nearly finish,
-the ratio being, she had come to think, roughly correct for anything that
-mattered, and by the eleventh night she had four pages that said the true
-thing plainly — that the number of people the programme saved was set by
-an appropriations officer who had never been told what the appropriation
-was for, that a retrieval cost what four medium tanks cost and the Army
-would build four tanks by suppertime without convening a single meeting
-about it, that the position holding the line at nineteen had never once
-been asked whether nineteen was a limit or merely a habit that had not yet
-been questioned — and she had a fifth page, then, that said the other true
-thing, which was what she was afraid of, and she read it twice and decided
-it did not belong in a memorandum to a colonel, and took it out, and the
-memorandum became four pages instead of five, which was the version she
-kept, in the same drawer as the requisitions that had never been answered
-either, because a thing you have written down at least exists somewhere,
-whether or not anyone reads it.
+The retrieval was budgeted for one: a single chair on the platform, a
+single line drawn on the Line Shed's dial where the plant's whole capacity
+ran out. Bright had stood the coupling for eleven of these and knew the
+dial the way she knew her own pulse, and she was three minutes into the
+draw, current running up both arms in a way that would have put any other
+soldier on the floor, when the signal came through that there were two
+people on the other end of the line instead of one — a mistake in the
+paperwork nobody would ever untangle, made real now, standing in front of
+her on a platform that had power budgeted for exactly one.
 
-The paragraph had said this: that if the programme did what she was asking
-it to do, nineteen people would stop being nineteen people and start being
-a population, and a population needed accommodation rather than curtains,
-and the thing that made married quarters bearable to live in — that
-everyone in them was still, somehow, a person to somebody, that Ida typed
-the envelopes and the Colonel walked past on Thursdays and timed it so he
-would pass while the game was on — was exactly the thing that scale would
-spend, and she had asked for scale, in writing, in her own hand, and was
-now the only person at the installation who had put on paper the price of
-getting what she wanted.
+She had four seconds to decide before the window closed, which was not
+enough time to think and exactly enough time to act, and she found, in
+those four seconds, that she already knew what she was going to do,
+because she had known it for months without ever having said so to
+anyone: the dial's red line was not where the current actually failed. It
+was where the plant's rated capacity was budgeted to stop, and rated
+capacity and actual capacity were, in her own hands, not the same number,
+and she had proved it to herself alone, at night, more than once, and had
+never told a soul because there was no version of telling that did not
+end with someone deciding to make the margin official and therefore make
+it stop being hers to spend.
 
-She did not send it. Not from fear of the Colonel, who she did not think
-would punish her for asking, and not from doubt in the arithmetic, which
-she had checked three times and which held. She did not send it because
-she had worked out, sometime around the ninth night, that the only people
-with standing to ask this question were the people who had the most to
-lose from it being answered, and that this fact did not make the question
-wrong, it only meant that she was, in asking it, volunteering to be the
-one who lost, and she had not yet decided that she was willing, and a
-memorandum that argues for its author's own displacement is not cowardice
-to leave in a drawer, it is simply a decision that has not finished being
-made.
+She spent it.
 
-She filed it behind the requisition denials, where Command would expect to
-find nothing of consequence, and went back to the Current section, where a
-soldier can hold four hundred volts across four men and know exactly, to
-the ampere, what she is doing, and she found, walking back, that this was
-easier to want than the other thing, though she could not have said, if
-anyone had asked her, which of the two actually frightened her more.
+The current climbed past the red line and kept climbing, and every nerve
+in both her arms told her, in a language older than training, that this
+was the part where a body was supposed to let go, and she did not let go,
+because letting go now meant one of the two people on the platform stayed
+exactly where the century had already buried them, and she had decided,
+months ago and alone, that she was never again going to be the reason a
+number came out smaller than it had to.
+
+Both came through. The plant threw three breakers doing it, and the Line
+Shed went dark for four seconds that felt considerably longer, and when
+the lights came back Bright was on her knees on the platform with both
+hands still smoking faintly and two strangers breathing on the boards in
+front of her who had, ninety seconds earlier, still belonged to 1943 and
+now did not.
+
+Wexford found her there before the medics did. He did not ask what had
+happened to the dial, and she understood, watching his face do the
+arithmetic she had already finished, that he had chosen not to ask on
+purpose — that he could see exactly what she had done and exactly what
+it meant for the next nineteen people who might need the same four
+seconds spent on their behalf, and that asking the question out loud
+would turn a thing one soldier did once into a policy somebody would then
+have to defend or forbid.
+
+He said only that she should get her hands looked at.
+
+She said she would, and did not move yet, and knelt there on the platform
+a moment longer with the two strangers breathing beside her, doing the
+only kind of arithmetic she had ever actually trusted — not the number on
+a dial, but the number of people currently alive who had not been, four
+seconds before.

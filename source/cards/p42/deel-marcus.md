@@ -15,9 +15,10 @@ particular give of a dial under his thumb — because nobody at Camp Iron Bell
 has ever fully understood Tesla's notes and Deel is the only one honest
 enough to say so out loud, in front of Wexford, more than once.
 
-He filed the retrieval application himself. Cabinet Nine keeps the denial,
-and the request stapled behind it, in his own handwriting, submitted in the
-genuine expectation of an answer.
+He asked, once, to go out on a retrieval himself instead of running the
+plant from the Shed. He was told no, to his face, and has not asked
+again — not from wounded pride, but because he understood, hearing it,
+that the answer was right.
 
 ## Story
 
