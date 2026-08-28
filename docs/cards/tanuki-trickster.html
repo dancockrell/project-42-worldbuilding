@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TANUKI-TRICKSTER — Project 42</title>
+<style>
+:root{
+  --ink:#171310; --dim:#6a625c; --faint:#a79e97;
+  --bg:#f6f2ec; --panel:#fffdfa; --rule:#e0d8ce; --accent:#8c2f1f;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --ink:#e9e3db; --dim:#a49a91; --faint:#6f665e;
+         --bg:#14110f; --panel:#1b1714; --rule:#2e2723; --accent:#d4694f; }
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font:400 18px/1.65 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:38rem;margin:0 auto;padding:2.5rem 1.25rem 6rem}
+header.top{
+  max-width:38rem;margin:0 auto;padding:1.25rem 1.25rem 0;
+  font:600 13px/1 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--faint);
+}
+header.top a{color:var(--faint);text-decoration:none}
+header.top a:hover{color:var(--accent)}
+h1{font-size:2rem;line-height:1.15;margin:.6rem 0 1.2rem;letter-spacing:-.01em}
+h2{font-size:1.25rem;margin:2.6rem 0 .9rem;letter-spacing:-.005em}
+h3{
+  font:600 12px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--dim);
+  margin:2.2rem 0 1rem;
+}
+p{margin:0 0 1.15rem}
+hr{border:0;border-top:1px solid var(--rule);margin:2rem 0}
+a{color:var(--accent)}
+.kicker{
+  font:600 12px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin:0;
+}
+.lede{font-size:1.15rem;color:var(--dim);margin-bottom:2.5rem}
+figure{margin:1.6rem 0 2.2rem}
+figure img{width:100%;display:block;border:1px solid var(--rule);border-radius:3px}
+figure.pending .plate{
+  aspect-ratio:4/3;border:1px dashed var(--rule);border-radius:3px;
+  background:repeating-linear-gradient(45deg,transparent,transparent 9px,var(--rule) 9px,var(--rule) 10px);
+  opacity:.5;
+}
+figcaption{
+  font:400 13px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--dim);margin-top:.6rem;
+}
+.bio{
+  background:var(--panel);border:1px solid var(--rule);border-left:3px solid var(--accent);
+  padding:1.15rem 1.25rem .1rem;margin:0 0 2.6rem;border-radius:3px;
+}
+.bio p{font-size:1.02rem}
+.story p:first-of-type::first-line{font-variant-caps:small-caps;letter-spacing:.02em}
+.wc{
+  font:400 12px/1 ui-sans-serif,system-ui,sans-serif;color:var(--faint);
+  margin-top:2.5rem;text-align:right;
+}
+.pager{
+  display:flex;justify-content:space-between;gap:1rem;
+  border-top:1px solid var(--rule);padding-top:1.1rem;margin-top:1rem;
+  font:600 13px/1.4 ui-sans-serif,system-ui,sans-serif;
+}
+.pager a{text-decoration:none}
+.pager .next{margin-left:auto;text-align:right}
+.faction{margin:0 0 2.8rem}
+.blurb{color:var(--dim);margin-bottom:.9rem}
+ul.cards{list-style:none;padding:0;margin:0;border-top:1px solid var(--rule)}
+ul.cards li{
+  display:flex;align-items:baseline;gap:.75rem;
+  border-bottom:1px solid var(--rule);padding:.7rem 0;
+}
+ul.cards a{text-decoration:none;font-weight:600}
+ul.cards a:hover{text-decoration:underline}
+.meta{
+  margin-left:auto;font:400 12px/1 ui-sans-serif,system-ui,sans-serif;
+  color:var(--faint);letter-spacing:.06em;text-transform:uppercase;
+}
+.empty{color:var(--faint);font-style:italic}
+</style>
+</head>
+<body>
+<header class="top"><a href="../index.html">Project 42</a></header>
+<main class="wrap">
+<article class="card">
+<p class="kicker">Hyakki Yakō &middot; Unit &middot; <b>A tier</b></p>
+<h1>TANUKI-TRICKSTER</h1>
+<figure class="pending"><div class="plate"></div><figcaption>Art pending.</figcaption></figure>
+<section class="bio"><p>The one genuinely funny fusion in the entire establishment, and the<br>
+programme finds this embarrassing in a way it has no form for. Filed<br>
+under an operational category invented specifically to contain him,<br>
+because no existing one applied. Nothing he does is regulation. Everything<br>
+he does works. Amatsu has twice declined, in writing, to discipline him,<br>
+and has not stated why either time. He is the only fused man at the<br>
+station who talks about what happened to him openly, at volume, usually<br>
+as a joke, and nobody has told him to stop.</p></section>
+<section class="story">
+<h2>THE ONLY MAN WHO SAYS IT OUT LOUD</h2>
+<p>He had discovered, in the first month, the one fact about the station<br>
+that every other fused soldier had discovered and then quietly buried:<br>
+that nobody in a position to punish him for it actually wanted to be the<br>
+officer who wrote up a formal reprimand reading *subject persists in<br>
+making light of his own selection*, because the sentence, set down in an<br>
+official hand and filed where a colonel might eventually read it, sounded<br>
+worse for the establishment than for him, and he had understood this<br>
+instinct correctly and early, and had spent every day since building on<br>
+it with the confidence of a man who has found a door nobody else<br>
+noticed was unlocked.</p>
+<p>So he told it as a story, at the long table after supper, the way other<br>
+men told stories about girls back home or fish that had gotten away — the<br>
+morning something reached into a rice paddy outside Nagano and decided,<br>
+for reasons it had never troubled to share with the farmer&#x27;s son standing<br>
+in it, that this particular unremarkable young man belonged to the<br>
+Empire&#x27;s folklore now, and how the young man in question had gone home<br>
+that evening and told his mother nothing, because what precisely would he<br>
+have said, and how he had shown up at the induction depot a week later<br>
+still not entirely sure he hadn&#x27;t imagined the whole thing, right up<br>
+until the officiant at the ceremony had said a word over him that made<br>
+the hair on his arms stand up in a way no word had ever managed before or<br>
+since — and the room laughed, every time, at the parts that were<br>
+genuinely funny, and went quiet, every time, at the one line he always<br>
+delivered flat and fast and moved past before anyone could ask him to<br>
+say more about it, which was that he had never once gotten an answer for<br>
+why him, and had stopped expecting one somewhere around the second<br>
+telling.</p>
+<p>Amatsu had heard the story, or a version close enough, from an aide who<br>
+had reported it up with some anxiety, expecting a reprimand to follow, and<br>
+had read the report twice and written nothing back, and when asked<br>
+directly, once, by a junior officer wanting cover for his own inaction,<br>
+had said only that a man laughing about what had been done to him was not<br>
+the same thing as a man forgetting it, and that she would rather have one<br>
+soldier who said the truth loudly at supper than four hundred who never<br>
+said it at all — which was not, strictly, an order, and had nonetheless<br>
+traveled through the establishment faster than any order she had ever<br>
+actually given, and had left him exactly where he already was: telling<br>
+the story his own way, at his own volume, to a table that kept laughing<br>
+in the right places and going quiet, right on schedule, at the one place<br>
+that was never actually a joke.</p>
+</section>
+<p class="wc">495 words</p>
+</article>
+<nav class="pager"><a class="prev" href="sakaguchi-tomo.html">&larr; LIEUTENANT SAKAGUCHI TOMO</a><a class="next" href="tengu-scout.html">TENGU-SCOUT &rarr;</a></nav>
+</main>
+</body>
+</html>

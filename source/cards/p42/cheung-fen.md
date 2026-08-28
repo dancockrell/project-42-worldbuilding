@@ -2,7 +2,7 @@
 faction: p42
 type: Ace
 tier: A
-status: review
+status: accepted
 image_caption: Two drinking fountains outside Building 1, side by side,
 painted signs above each; a disciplinary form on a clerk's desk with a
 blank line where the report should describe what was said.

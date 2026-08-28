@@ -2,7 +2,7 @@
 faction: hy
 type: Unit
 tier: B
-status: review
+status: accepted
 image_caption: A patrol on a mountain road at dusk, six men visible; a
 seventh set of footprints continues past where the mist begins, and the
 mist does not end where mist usually ends.

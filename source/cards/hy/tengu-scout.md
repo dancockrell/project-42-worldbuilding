@@ -2,7 +2,7 @@
 faction: hy
 type: Unit
 tier: B
-status: review
+status: accepted
 image_caption: A ridgeline at first light, a soldier crouched at the edge
 of it looking down into a valley the map does not yet show; his shadow on
 the rock behind him is cast at an angle the sun cannot account for.

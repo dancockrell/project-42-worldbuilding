@@ -2,7 +2,7 @@
 faction: hy
 type: Unit
 tier: B
-status: review
+status: accepted
 image_caption: A briefing tent, officers around a map table; one soldier
 stands apart near the tent flap, and the lamp behind him throws a second
 shadow that leans in close to whisper something his own mouth is not

@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KITSUNE-WARDEN — Project 42</title>
+<style>
+:root{
+  --ink:#171310; --dim:#6a625c; --faint:#a79e97;
+  --bg:#f6f2ec; --panel:#fffdfa; --rule:#e0d8ce; --accent:#8c2f1f;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --ink:#e9e3db; --dim:#a49a91; --faint:#6f665e;
+         --bg:#14110f; --panel:#1b1714; --rule:#2e2723; --accent:#d4694f; }
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font:400 18px/1.65 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:38rem;margin:0 auto;padding:2.5rem 1.25rem 6rem}
+header.top{
+  max-width:38rem;margin:0 auto;padding:1.25rem 1.25rem 0;
+  font:600 13px/1 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--faint);
+}
+header.top a{color:var(--faint);text-decoration:none}
+header.top a:hover{color:var(--accent)}
+h1{font-size:2rem;line-height:1.15;margin:.6rem 0 1.2rem;letter-spacing:-.01em}
+h2{font-size:1.25rem;margin:2.6rem 0 .9rem;letter-spacing:-.005em}
+h3{
+  font:600 12px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--dim);
+  margin:2.2rem 0 1rem;
+}
+p{margin:0 0 1.15rem}
+hr{border:0;border-top:1px solid var(--rule);margin:2rem 0}
+a{color:var(--accent)}
+.kicker{
+  font:600 12px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin:0;
+}
+.lede{font-size:1.15rem;color:var(--dim);margin-bottom:2.5rem}
+figure{margin:1.6rem 0 2.2rem}
+figure img{width:100%;display:block;border:1px solid var(--rule);border-radius:3px}
+figure.pending .plate{
+  aspect-ratio:4/3;border:1px dashed var(--rule);border-radius:3px;
+  background:repeating-linear-gradient(45deg,transparent,transparent 9px,var(--rule) 9px,var(--rule) 10px);
+  opacity:.5;
+}
+figcaption{
+  font:400 13px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--dim);margin-top:.6rem;
+}
+.bio{
+  background:var(--panel);border:1px solid var(--rule);border-left:3px solid var(--accent);
+  padding:1.15rem 1.25rem .1rem;margin:0 0 2.6rem;border-radius:3px;
+}
+.bio p{font-size:1.02rem}
+.story p:first-of-type::first-line{font-variant-caps:small-caps;letter-spacing:.02em}
+.wc{
+  font:400 12px/1 ui-sans-serif,system-ui,sans-serif;color:var(--faint);
+  margin-top:2.5rem;text-align:right;
+}
+.pager{
+  display:flex;justify-content:space-between;gap:1rem;
+  border-top:1px solid var(--rule);padding-top:1.1rem;margin-top:1rem;
+  font:600 13px/1.4 ui-sans-serif,system-ui,sans-serif;
+}
+.pager a{text-decoration:none}
+.pager .next{margin-left:auto;text-align:right}
+.faction{margin:0 0 2.8rem}
+.blurb{color:var(--dim);margin-bottom:.9rem}
+ul.cards{list-style:none;padding:0;margin:0;border-top:1px solid var(--rule)}
+ul.cards li{
+  display:flex;align-items:baseline;gap:.75rem;
+  border-bottom:1px solid var(--rule);padding:.7rem 0;
+}
+ul.cards a{text-decoration:none;font-weight:600}
+ul.cards a:hover{text-decoration:underline}
+.meta{
+  margin-left:auto;font:400 12px/1 ui-sans-serif,system-ui,sans-serif;
+  color:var(--faint);letter-spacing:.06em;text-transform:uppercase;
+}
+.empty{color:var(--faint);font-style:italic}
+</style>
+</head>
+<body>
+<header class="top"><a href="../index.html">Project 42</a></header>
+<main class="wrap">
+<article class="card">
+<p class="kicker">Hyakki Yakō &middot; Unit &middot; <b>A tier</b></p>
+<h1>KITSUNE-WARDEN</h1>
+<figure class="pending"><div class="plate"></div><figcaption>Art pending.</figcaption></figure>
+<section class="bio"><p>A railway clerk in March, this in April — the fusion chose her the way it<br>
+chooses everyone, without asking and without explaining, and left her<br>
+serene in a way that is wrong for what happens around her, which is the<br>
+only tell anyone has ever found. She holds a checkpoint the way she once<br>
+held a timetable: exactly, without visible effort, and without once<br>
+raising her voice. Nothing gets past a Kitsune-Warden who has decided it<br>
+should not, and nobody has ever worked out how she decides.</p></section>
+<section class="story">
+<h2>THE TIMETABLE SHE STILL KEEPS</h2>
+<p>She had kept a timetable for six years before the fusion and she kept one<br>
+after it without meaning to, the same private discipline transferred<br>
+whole from one life into the next the way a hand keeps its grip on a rail<br>
+after the train has already stopped — trucks at 0600, the relief detail<br>
+at 1400, the supply run that was late eleven times in April and eleven<br>
+times in May, and she noted each lateness the way she had once noted a<br>
+delayed express, with no anger in it at all, only the clerk&#x27;s old<br>
+satisfaction of a fact correctly filed.</p>
+<p>The men who worked the checkpoint with her had stopped, by the second<br>
+month, remarking on how calm she was, because remarking on it had begun<br>
+to feel like remarking on the weather, and had started instead to feel,<br>
+without examining the feeling closely, a low and constant unease at<br>
+shift change that none of them connected to her directly, the way a man<br>
+standing near a very quiet machine feels the quiet before he thinks to<br>
+ask what the machine usually sounds like.</p>
+<p>What none of them had noticed, because noticing it required comparing an<br>
+April instant against a March one they had not thought to keep, was that<br>
+her stillness now held nothing behind it that resembled patience. Patience<br>
+is a woman waiting for something to end. What the checkpoint had instead<br>
+was a woman who was not waiting for anything, who watched the road the<br>
+way the road itself watched nothing, continuously and without preference,<br>
+and who could stand at the barrier from dusk to dawn without once shifting<br>
+her weight, not because she was disciplined, but because the part of her<br>
+that would have grown tired of standing had gone somewhere the fusion had<br>
+not thought to bring back.</p>
+<p>A supply truck came through without papers on the ninth night of June,<br>
+waved on by a corporal who knew the driver and trusted him for it, and she<br>
+stepped into its path without raising her voice or her hand, and the<br>
+truck stopped the way trucks stop for a fact rather than for a person —<br>
+immediately, and without the driver afterward being entirely sure why he<br>
+had done it — and she asked for the papers in the same even register she<br>
+asked for everything, and the corporal, watching from the guardhouse,<br>
+understood for the first time in nine weeks that he had never once seen<br>
+her afraid of anything large enough to be afraid of, and understood,<br>
+directly behind that thought and colder than it, that this was not<br>
+courage either, and had no name he was willing to go looking for.</p>
+</section>
+<p class="wc">446 words</p>
+</article>
+<nav class="pager"><a class="prev" href="kappa-diver.html">&larr; KAPPA-DIVER</a><a class="next" href="kurosawa-ren.html">SUPERIOR PRIVATE KUROSAWA REN &rarr;</a></nav>
+</main>
+</body>
+</html>

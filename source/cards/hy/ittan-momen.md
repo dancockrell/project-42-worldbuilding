@@ -2,7 +2,7 @@
 faction: hy
 type: Unit
 tier: C
-status: review
+status: accepted
 image_caption: A corridor at Light 7, empty except for a long pale banner
 of cloth drifting a few feet off the floor at exactly walking height,
 moving against the draft rather than with it.

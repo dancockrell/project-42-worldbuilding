@@ -2,7 +2,7 @@
 faction: p42
 type: Ace
 tier: A
-status: review
+status: accepted
 image_caption: A countermeasure bench, glassware racked and labelled in a
 tidy hand; beside it, a burned corner of a laboratory notebook that
 survived a fire nothing else from 1922 did, kept in a drawer rather than

@@ -2,7 +2,7 @@
 faction: hy
 type: Unit
 tier: B
-status: review
+status: accepted
 image_caption: A small clinic room at Light 7, a single lamp; a man writes
 in a notebook that is not the establishment's, while behind him a shadow on
 the wall keeps still a half-second longer than the lamp's flicker should

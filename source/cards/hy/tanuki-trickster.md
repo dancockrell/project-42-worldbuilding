@@ -2,7 +2,7 @@
 faction: hy
 type: Unit
 tier: A
-status: review
+status: accepted
 image_caption: A barracks common room, men laughing around a table; at the
 center of it a soldier mid-story, and the lamp above him throws a second,
 larger shadow that seems to be enjoying the joke as much as the room is.

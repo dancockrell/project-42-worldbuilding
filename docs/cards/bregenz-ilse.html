@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ILSE BREGENZ — Project 42</title>
+<style>
+:root{
+  --ink:#171310; --dim:#6a625c; --faint:#a79e97;
+  --bg:#f6f2ec; --panel:#fffdfa; --rule:#e0d8ce; --accent:#8c2f1f;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --ink:#e9e3db; --dim:#a49a91; --faint:#6f665e;
+         --bg:#14110f; --panel:#1b1714; --rule:#2e2723; --accent:#d4694f; }
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font:400 18px/1.65 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:38rem;margin:0 auto;padding:2.5rem 1.25rem 6rem}
+header.top{
+  max-width:38rem;margin:0 auto;padding:1.25rem 1.25rem 0;
+  font:600 13px/1 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--faint);
+}
+header.top a{color:var(--faint);text-decoration:none}
+header.top a:hover{color:var(--accent)}
+h1{font-size:2rem;line-height:1.15;margin:.6rem 0 1.2rem;letter-spacing:-.01em}
+h2{font-size:1.25rem;margin:2.6rem 0 .9rem;letter-spacing:-.005em}
+h3{
+  font:600 12px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--dim);
+  margin:2.2rem 0 1rem;
+}
+p{margin:0 0 1.15rem}
+hr{border:0;border-top:1px solid var(--rule);margin:2rem 0}
+a{color:var(--accent)}
+.kicker{
+  font:600 12px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin:0;
+}
+.lede{font-size:1.15rem;color:var(--dim);margin-bottom:2.5rem}
+figure{margin:1.6rem 0 2.2rem}
+figure img{width:100%;display:block;border:1px solid var(--rule);border-radius:3px}
+figure.pending .plate{
+  aspect-ratio:4/3;border:1px dashed var(--rule);border-radius:3px;
+  background:repeating-linear-gradient(45deg,transparent,transparent 9px,var(--rule) 9px,var(--rule) 10px);
+  opacity:.5;
+}
+figcaption{
+  font:400 13px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--dim);margin-top:.6rem;
+}
+.bio{
+  background:var(--panel);border:1px solid var(--rule);border-left:3px solid var(--accent);
+  padding:1.15rem 1.25rem .1rem;margin:0 0 2.6rem;border-radius:3px;
+}
+.bio p{font-size:1.02rem}
+.story p:first-of-type::first-line{font-variant-caps:small-caps;letter-spacing:.02em}
+.wc{
+  font:400 12px/1 ui-sans-serif,system-ui,sans-serif;color:var(--faint);
+  margin-top:2.5rem;text-align:right;
+}
+.pager{
+  display:flex;justify-content:space-between;gap:1rem;
+  border-top:1px solid var(--rule);padding-top:1.1rem;margin-top:1rem;
+  font:600 13px/1.4 ui-sans-serif,system-ui,sans-serif;
+}
+.pager a{text-decoration:none}
+.pager .next{margin-left:auto;text-align:right}
+.faction{margin:0 0 2.8rem}
+.blurb{color:var(--dim);margin-bottom:.9rem}
+ul.cards{list-style:none;padding:0;margin:0;border-top:1px solid var(--rule)}
+ul.cards li{
+  display:flex;align-items:baseline;gap:.75rem;
+  border-bottom:1px solid var(--rule);padding:.7rem 0;
+}
+ul.cards a{text-decoration:none;font-weight:600}
+ul.cards a:hover{text-decoration:underline}
+.meta{
+  margin-left:auto;font:400 12px/1 ui-sans-serif,system-ui,sans-serif;
+  color:var(--faint);letter-spacing:.06em;text-transform:uppercase;
+}
+.empty{color:var(--faint);font-style:italic}
+</style>
+</head>
+<body>
+<header class="top"><a href="../index.html">Project 42</a></header>
+<main class="wrap">
+<article class="card">
+<p class="kicker">Project 42 &middot; Ace &middot; <b>A tier</b></p>
+<h1>ILSE BREGENZ</h1>
+<figure class="pending"><div class="plate"></div><figcaption>Art pending.</figcaption></figure>
+<section class="bio"><p>Taken from a laboratory fire in 1922 that burned her papers along with<br>
+everything else on the bench, which was, by an accident nobody at Iron<br>
+Bell has ever been able to improve on, the cleanest consistency<br>
+certification the programme has produced — a chemist erased from her own<br>
+field on the same afternoon she was erased from the record that would<br>
+otherwise have kept her in it.</p>
+<p>Runs the countermeasure work against Seuche and will not say what she<br>
+thinks Hollernbruch is actually doing, because she trained close enough to<br>
+that world, once, to already know, and knowing is not the same thing as<br>
+being willing to say it out loud.</p></section>
+<section class="story">
+<h2>CLOSE ENOUGH TO KNOW</h2>
+<p>Falk asked her directly, once, over a set of cultures neither of them had<br>
+gotten to behave the way the countermeasure required, whether Bregenz<br>
+thought the Office&#x27;s work came out of genuine ignorance or something<br>
+closer to appetite, a question Falk had clearly been saving for an hour<br>
+when the answer might arrive without either of them having to look<br>
+directly at it, and Bregenz had set down the pipette she was holding and<br>
+not answered for long enough that Falk understood, correctly, that the<br>
+silence was itself most of the answer.</p>
+<p>She had trained in a city whose university chairs she still, eleven years<br>
+on, could name in order of seniority, under men some of whom she had<br>
+liked, genuinely, the way a student likes a demanding teacher, and she had<br>
+read enough journals from that world before the fire to recognise a shape<br>
+when a shape repeated itself at a different address under a different<br>
+flag, and recognising it was not a theory she had built at Camp Iron Bell<br>
+from insufficient information. It was a memory she had brought with her,<br>
+intact, of exactly how such a department justifies its own budget line to<br>
+itself, in language that never once uses a word anyone could later be<br>
+asked to answer for.</p>
+<p>She did not tell Falk this. She did not tell Falk any version of this,<br>
+that day or since, not because she doubted Falk would believe her — Falk,<br>
+of everyone at the installation, was the one person who would have<br>
+believed her without requiring a citation — but because saying it aloud<br>
+would have meant explaining how she came to recognise it so quickly, and<br>
+that explanation had a shape of its own, with names in it, names of men<br>
+she had liked, and she had made a private decision, sometime in the first<br>
+year, that those names would not be spoken again in any language a form<br>
+could later be filed in.</p>
+<p>She went back to the cultures instead, and adjusted the concentration by a<br>
+measure so small it barely justified the notation, and told Falk, when<br>
+Falk finally asked outright whether the new mixture would hold, that it<br>
+was too soon to know, which was true, and which was also, though Falk<br>
+never learned this, the only kind of honest answer Bregenz had left<br>
+herself the ability to give about anything that traced back far enough.</p>
+<p>That evening she took the burned notebook corner out of the drawer where<br>
+she kept it, as she did perhaps twice a year, and did not read the two<br>
+surviving lines of her own handwriting on it, having long since memorised<br>
+them past the point where rereading added anything, and held it instead<br>
+the way a person holds a thing to confirm it is still the size it was the<br>
+last time, before putting it back exactly where the drawer&#x27;s own dust<br>
+outline said it belonged.</p>
+</section>
+<p class="wc">487 words</p>
+</article>
+<nav class="pager"><a class="next" href="bright-adaeze.html">CORPORAL ADAEZE BRIGHT &rarr;</a></nav>
+</main>
+</body>
+</html>

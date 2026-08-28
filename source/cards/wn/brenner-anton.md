@@ -3,7 +3,7 @@
 faction: wn
 type: Ace
 tier: A
-status: review
+status: accepted
 image_caption: A ward corridor at 4am, a window fogged with condensation
 facing the bakery's real chimney, four hundred metres off and lit.
 

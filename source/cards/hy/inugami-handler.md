@@ -2,7 +2,7 @@
 faction: hy
 type: Unit
 tier: B
-status: review
+status: accepted
 image_caption: A kennel run at dusk, a soldier crouched at the wire; on the
 other side of it, low to the ground, a shape that is not quite a dog and
 is watching him with the stillness of something that has been waiting

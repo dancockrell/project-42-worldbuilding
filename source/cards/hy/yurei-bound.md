@@ -2,7 +2,7 @@
 faction: hy
 type: Unit
 tier: B
-status: review
+status: accepted
 image_caption: A field kitchen line at dusk, a woman serving in an orderly
 row of soldiers; behind her, cast on the tent canvas, a second outline
 stands where the lamp says no one is standing.

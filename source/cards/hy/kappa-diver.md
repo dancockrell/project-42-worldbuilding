@@ -2,7 +2,7 @@
 faction: hy
 type: Unit
 tier: B
-status: review
+status: accepted
 image_caption: A harbor at dawn, a diver surfacing beside a mooring line
 far longer than the tide should require; his wake spreads in a pattern the
 current alone does not explain.

@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YOKAI-TENDER — Project 42</title>
+<style>
+:root{
+  --ink:#171310; --dim:#6a625c; --faint:#a79e97;
+  --bg:#f6f2ec; --panel:#fffdfa; --rule:#e0d8ce; --accent:#8c2f1f;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --ink:#e9e3db; --dim:#a49a91; --faint:#6f665e;
+         --bg:#14110f; --panel:#1b1714; --rule:#2e2723; --accent:#d4694f; }
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font:400 18px/1.65 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:38rem;margin:0 auto;padding:2.5rem 1.25rem 6rem}
+header.top{
+  max-width:38rem;margin:0 auto;padding:1.25rem 1.25rem 0;
+  font:600 13px/1 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--faint);
+}
+header.top a{color:var(--faint);text-decoration:none}
+header.top a:hover{color:var(--accent)}
+h1{font-size:2rem;line-height:1.15;margin:.6rem 0 1.2rem;letter-spacing:-.01em}
+h2{font-size:1.25rem;margin:2.6rem 0 .9rem;letter-spacing:-.005em}
+h3{
+  font:600 12px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--dim);
+  margin:2.2rem 0 1rem;
+}
+p{margin:0 0 1.15rem}
+hr{border:0;border-top:1px solid var(--rule);margin:2rem 0}
+a{color:var(--accent)}
+.kicker{
+  font:600 12px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin:0;
+}
+.lede{font-size:1.15rem;color:var(--dim);margin-bottom:2.5rem}
+figure{margin:1.6rem 0 2.2rem}
+figure img{width:100%;display:block;border:1px solid var(--rule);border-radius:3px}
+figure.pending .plate{
+  aspect-ratio:4/3;border:1px dashed var(--rule);border-radius:3px;
+  background:repeating-linear-gradient(45deg,transparent,transparent 9px,var(--rule) 9px,var(--rule) 10px);
+  opacity:.5;
+}
+figcaption{
+  font:400 13px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--dim);margin-top:.6rem;
+}
+.bio{
+  background:var(--panel);border:1px solid var(--rule);border-left:3px solid var(--accent);
+  padding:1.15rem 1.25rem .1rem;margin:0 0 2.6rem;border-radius:3px;
+}
+.bio p{font-size:1.02rem}
+.story p:first-of-type::first-line{font-variant-caps:small-caps;letter-spacing:.02em}
+.wc{
+  font:400 12px/1 ui-sans-serif,system-ui,sans-serif;color:var(--faint);
+  margin-top:2.5rem;text-align:right;
+}
+.pager{
+  display:flex;justify-content:space-between;gap:1rem;
+  border-top:1px solid var(--rule);padding-top:1.1rem;margin-top:1rem;
+  font:600 13px/1.4 ui-sans-serif,system-ui,sans-serif;
+}
+.pager a{text-decoration:none}
+.pager .next{margin-left:auto;text-align:right}
+.faction{margin:0 0 2.8rem}
+.blurb{color:var(--dim);margin-bottom:.9rem}
+ul.cards{list-style:none;padding:0;margin:0;border-top:1px solid var(--rule)}
+ul.cards li{
+  display:flex;align-items:baseline;gap:.75rem;
+  border-bottom:1px solid var(--rule);padding:.7rem 0;
+}
+ul.cards a{text-decoration:none;font-weight:600}
+ul.cards a:hover{text-decoration:underline}
+.meta{
+  margin-left:auto;font:400 12px/1 ui-sans-serif,system-ui,sans-serif;
+  color:var(--faint);letter-spacing:.06em;text-transform:uppercase;
+}
+.empty{color:var(--faint);font-style:italic}
+</style>
+</head>
+<body>
+<header class="top"><a href="../index.html">Project 42</a></header>
+<main class="wrap">
+<article class="card">
+<p class="kicker">Hyakki Yakō &middot; Unit &middot; <b>B tier</b></p>
+<h1>YOKAI-TENDER</h1>
+<figure class="pending"><div class="plate"></div><figcaption>Art pending.</figcaption></figure>
+<section class="bio"><p>Assigned to the fused, which is a posting nobody requested and the<br>
+establishment lists anyway, under no heading that quite fits, because<br>
+there is no medicine for what has happened to any of them and everyone<br>
+who wrote the roster knew it. He is not a doctor. He keeps notes the<br>
+programme has not asked for, in a hand only he reads, and has begun,<br>
+eighteen months in, to suspect the notes are not for the programme at<br>
+all — that he has been quietly writing for a reader who does not exist<br>
+yet, and writing anyway, because the alternative is writing for nobody.</p></section>
+<section class="story">
+<h2>THE NOTEBOOK NOBODY REQUISITIONED</h2>
+<p>He had asked, the first week, what he was meant to treat them for, and had<br>
+been told, correctly and not unkindly, that there was nothing to treat,<br>
+that the posting existed because a roster with a category for <em>the fused</em><br>
+and no name in the column beside it read worse to the people who reviewed<br>
+rosters than one with a name in it that did nothing useful, and he had<br>
+understood, from that answer, precisely how much the Empire expected of<br>
+him, which was presence rather than practice, and had spent the first<br>
+month deciding what a man does with a posting that asks only that he be<br>
+seen to hold it.</p>
+<p>What he had settled on, by the second month, was a notebook the<br>
+establishment had never requisitioned and did not know existed, in which<br>
+he wrote down, plainly and without the vocabulary the official file<br>
+insisted on, what he actually observed — that the ceremony&#x27;s shelf held<br>
+objects nobody had authorized keeping and nobody had authorized returning,<br>
+that the stillness the fused carried was not calm but the absence calm<br>
+leaves behind when it has been removed along with everything else that<br>
+would have made a man restless, that two of them had begun, separately and<br>
+without either knowing the other did it, to address something under their<br>
+breath in the evenings that was not a prayer because neither expected an<br>
+answer and both kept doing it anyway — and had understood, writing this<br>
+down in a hand nobody at the station would ever be asked to read, that he<br>
+was not treating anyone. He was witnessing them, in the one register the<br>
+programme had no form for, and the witnessing itself, useless to every<br>
+purpose the establishment could name, had become the only part of the<br>
+posting he still believed in.</p>
+<p>He told himself, closing the notebook most nights, that he kept it in<br>
+case a real physician came one day, someone who might make use of three<br>
+years of plain observation the official file had systematically discarded<br>
+in favor of <em>long-term effects unknown</em>, which was accurate and had never<br>
+once been investigated. He had stopped, sometime in the second year,<br>
+entirely believing this. What he believed instead, on the nights he let<br>
+himself think about it directly, was that the reader he was writing for<br>
+did not exist yet and might never, and that he kept writing regardless,<br>
+the way a man tends a light for ships that no longer sail past it,<br>
+because the tending was the only part of the work that had ever actually<br>
+been his to do.</p>
+</section>
+<p class="wc">435 words</p>
+</article>
+<nav class="pager"><a class="prev" href="ueda-sanae.html">&larr; RADIOMAN SECOND CLASS UEDA SANAE</a><a class="next" href="yurei-bound.html">YUREI-BOUND &rarr;</a></nav>
+</main>
+</body>
+</html>

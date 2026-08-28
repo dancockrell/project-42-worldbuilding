@@ -2,7 +2,7 @@
 faction: hy
 type: Unit
 tier: B
-status: review
+status: accepted
 image_caption: A medical intake room, a soldier seated for examination; the
 attending clerk's pen hovers over a form with a single wide blank line
 where four separate boxes should be.

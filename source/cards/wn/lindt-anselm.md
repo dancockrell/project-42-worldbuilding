@@ -3,7 +3,7 @@
 faction: wn
 type: Unit
 tier: B
-status: review
+status: accepted
 image_caption: A Gestell 4 exoframe up to the knee joint in mud, the pilot's
 hatch open, a boot print leading away from it toward the treeline.
 

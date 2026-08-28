@@ -2,7 +2,7 @@
 faction: hy
 type: Unit
 tier: B
-status: review
+status: accepted
 image_caption: A supply tent at night, a soldier cross-legged on his
 bedroll; beside him a small flame burns with no visible source and no
 visible fuel, throwing a light too even and too still to be a lamp.

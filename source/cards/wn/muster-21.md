@@ -2,7 +2,7 @@
 faction: wn
 type: Unit
 tier: A
-status: review
+status: accepted
 image_caption: A formation halted in a hedgerow at dusk, waiting on a
 single raised hand from a figure standing apart from the rest, head
 tilted as though listening to something none of the others can hear.

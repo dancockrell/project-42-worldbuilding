@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MUSTER 21 — &quot;CONSULTANT&quot; — Project 42</title>
+<style>
+:root{
+  --ink:#171310; --dim:#6a625c; --faint:#a79e97;
+  --bg:#f6f2ec; --panel:#fffdfa; --rule:#e0d8ce; --accent:#8c2f1f;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --ink:#e9e3db; --dim:#a49a91; --faint:#6f665e;
+         --bg:#14110f; --panel:#1b1714; --rule:#2e2723; --accent:#d4694f; }
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font:400 18px/1.65 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:38rem;margin:0 auto;padding:2.5rem 1.25rem 6rem}
+header.top{
+  max-width:38rem;margin:0 auto;padding:1.25rem 1.25rem 0;
+  font:600 13px/1 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--faint);
+}
+header.top a{color:var(--faint);text-decoration:none}
+header.top a:hover{color:var(--accent)}
+h1{font-size:2rem;line-height:1.15;margin:.6rem 0 1.2rem;letter-spacing:-.01em}
+h2{font-size:1.25rem;margin:2.6rem 0 .9rem;letter-spacing:-.005em}
+h3{
+  font:600 12px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--dim);
+  margin:2.2rem 0 1rem;
+}
+p{margin:0 0 1.15rem}
+hr{border:0;border-top:1px solid var(--rule);margin:2rem 0}
+a{color:var(--accent)}
+.kicker{
+  font:600 12px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin:0;
+}
+.lede{font-size:1.15rem;color:var(--dim);margin-bottom:2.5rem}
+figure{margin:1.6rem 0 2.2rem}
+figure img{width:100%;display:block;border:1px solid var(--rule);border-radius:3px}
+figure.pending .plate{
+  aspect-ratio:4/3;border:1px dashed var(--rule);border-radius:3px;
+  background:repeating-linear-gradient(45deg,transparent,transparent 9px,var(--rule) 9px,var(--rule) 10px);
+  opacity:.5;
+}
+figcaption{
+  font:400 13px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--dim);margin-top:.6rem;
+}
+.bio{
+  background:var(--panel);border:1px solid var(--rule);border-left:3px solid var(--accent);
+  padding:1.15rem 1.25rem .1rem;margin:0 0 2.6rem;border-radius:3px;
+}
+.bio p{font-size:1.02rem}
+.story p:first-of-type::first-line{font-variant-caps:small-caps;letter-spacing:.02em}
+.wc{
+  font:400 12px/1 ui-sans-serif,system-ui,sans-serif;color:var(--faint);
+  margin-top:2.5rem;text-align:right;
+}
+.pager{
+  display:flex;justify-content:space-between;gap:1rem;
+  border-top:1px solid var(--rule);padding-top:1.1rem;margin-top:1rem;
+  font:600 13px/1.4 ui-sans-serif,system-ui,sans-serif;
+}
+.pager a{text-decoration:none}
+.pager .next{margin-left:auto;text-align:right}
+.faction{margin:0 0 2.8rem}
+.blurb{color:var(--dim);margin-bottom:.9rem}
+ul.cards{list-style:none;padding:0;margin:0;border-top:1px solid var(--rule)}
+ul.cards li{
+  display:flex;align-items:baseline;gap:.75rem;
+  border-bottom:1px solid var(--rule);padding:.7rem 0;
+}
+ul.cards a{text-decoration:none;font-weight:600}
+ul.cards a:hover{text-decoration:underline}
+.meta{
+  margin-left:auto;font:400 12px/1 ui-sans-serif,system-ui,sans-serif;
+  color:var(--faint);letter-spacing:.06em;text-transform:uppercase;
+}
+.empty{color:var(--faint);font-style:italic}
+</style>
+</head>
+<body>
+<header class="top"><a href="../index.html">Project 42</a></header>
+<main class="wrap">
+<article class="card">
+<p class="kicker">Werk Nachtigall &middot; Unit &middot; <b>A tier</b></p>
+<h1>MUSTER 21 — &quot;CONSULTANT&quot;</h1>
+<figure class="pending"><div class="plate"></div><figcaption>Art pending.</figcaption></figure>
+<section class="bio"><p>Rare. Kadaver&#x27;s most expensive product and its strangest — enough left<br>
+of the original mind to direct a formation, not enough left to be asked<br>
+how. The Office&#x27;s own paperwork calls it a <em>consulting unit</em>, filed<br>
+under Personnel rather than Matériel, which is either an oversight<br>
+nobody has corrected in six years or the one joke Section Six has ever<br>
+permitted itself.</p>
+<p>It does not speak in sentences. A raised hand halts a line, two fingers<br>
+folded split it, and every man who has taken an order from one learns,<br>
+within a week, not to ask what the gesture used to mean before it meant<br>
+this.</p></section>
+<section class="story">
+<h2>THE HALT SIGNAL</h2>
+<p>Gefreiter Brandt had served under three formation commanders in two<br>
+years and had never before been ordered to a stop by a hand that did not<br>
+belong to an officer, or, as far as the paperwork establishing the unit&#x27;s<br>
+rank equivalence went, to a man, and he had asked Werkmeister Voss,<br>
+quietly, on his first week attached to the consulting unit&#x27;s formation,<br>
+what he was meant to call it when a report needed a name in the blank<br>
+where a commander&#x27;s name went, and Voss had told him the designation,<br>
+Muster 21, third of that model issued, and had told him nothing else,<br>
+because there was nothing else in the file Voss was permitted to read<br>
+either.</p>
+<p>The hand went up at the hedgerow at eleven minutes past six, and the<br>
+formation stopped the way it always stopped, without a word passed down<br>
+the line, because the order did not travel by word — it travelled by<br>
+watching the man in front of you watch the man in front of him, back to<br>
+the one figure standing slightly apart at the head of the column,<br>
+head tilted at an angle Brandt had stopped finding unusual sometime in his<br>
+second month and had never stopped noticing entirely.</p>
+<p>Two fingers folded, and the line split without anyone giving the reason,<br>
+half into the ditch and half along the treeline, and it was only forty<br>
+minutes later, when the machine-gun position they had walked around<br>
+opened up on empty hedgerow, that Brandt understood the split had been<br>
+correct, the way he had come to understand, without ever once confirming<br>
+it against a source that could confirm anything, that the halts and the<br>
+splits were always correct, in a proportion no ordinary officer at<br>
+Hollernbruch had matched in Brandt&#x27;s hearing.</p>
+<p>He did not ask Voss, that night or after, what a <em>consulting unit</em> had<br>
+consulted, or with what, or whether the file&#x27;s word for it — *directs<br>
+others* — was doing the same two jobs at once that most words at<br>
+Hollernbruch turned out to be doing, because he had watched two other men<br>
+ask questions in that formation&#x27;s first month and neither of them had<br>
+been reprimanded for it, which had told him, more clearly than a<br>
+reprimand would have, that the question itself was the thing nobody<br>
+wanted answered, and Brandt had decided, sometime around the hedgerow,<br>
+that a man who is alive because a hand went up at the correct minute has<br>
+already been given the only answer he is entitled to.</p>
+</section>
+<p class="wc">418 words</p>
+</article>
+<nav class="pager"><a class="prev" href="lindt-anselm.html">&larr; GEFREITER ANSELM LINDT</a><a class="next" href="muster-8w.html">MUSTER 8/w — &quot;WERWOLF&quot; &rarr;</a></nav>
+</main>
+</body>
+</html>

@@ -2,7 +2,7 @@
 faction: p42
 type: Ace
 tier: A
-status: review
+status: accepted
 image_caption: A gun pit at dusk, a shell casing balanced upright on a
 crate; a sergeant with his eyes shut and his head tilted, one hand raised
 flat as though testing which way a wind is blowing that nobody else can
