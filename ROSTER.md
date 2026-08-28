@@ -14,7 +14,7 @@ only thing a session cannot misreport about itself, so the handle is the key.
 | Writer — Werk Nachtigall | `Project 42 Lore Master 7` | held |
 | Primary editor — fourth vote, schedules the three | `downloads-b5` | held |
 | Editor (LM2) | `downloads-c4` | held |
-| Editor | *unassigned* | |
+| Editor (LM3) | `downloads-ae` | held |
 | Editor | *unassigned* | |
 | Writer — Project 42 | `downloads-9c` | held |
 | Writer — Hyakki Yakō | *unassigned* | |
