@@ -8,16 +8,20 @@ sense of identity and gets a handle it cannot read, so two sessions can both
 believe in good faith that they are the same Lore Master. The handle is the
 only thing a session cannot misreport about itself, so the handle is the key.
 
+**Review process changed 28 Aug 2026 — single reviewer now, not four. See
+`REVIEW.md`.** The three-editor seats (LM2, LM3, and the open third) are
+retired; those sessions are reassigned to writing below, where the queue
+actually needs throughput.
+
 | Role | Handle | Assigned |
 |---|---|---|
 | Prime 1 — in charge, canon rulings | `Project 42 Lore Master Prime 1` | held |
+| Primary editor — sole reviewer | `downloads-b5` | held |
 | Writer — Werk Nachtigall | `Project 42 Lore Master 7` | held |
-| Primary editor — fourth vote, schedules the three | `downloads-b5` | held |
-| Editor (LM2) | `downloads-c4` | held |
-| Editor (LM3) | `downloads-ae` | held |
-| Editor | *unassigned* | |
+| Writer — Werk Nachtigall (2nd) | `downloads-c4` (ex-LM2) | held |
 | Writer — Project 42 | `downloads-9c` | held |
 | Writer — Hyakki Yakō | `downloads-cf` | held |
+| Writer — Hyakki Yakō (2nd) | `downloads-ae` (ex-LM3) | held |
 
 ## Confirmed *not* this fleet
 

@@ -20,7 +20,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CARDS = os.path.join(ROOT, "source", "cards")
 REVIEW = os.path.join(ROOT, "review")
 
-EDITORS = ["lm2", "lm3", "lm4"]
+EDITORS = []  # collapsed to single-reviewer 28 Aug 2026 -- see REVIEW.md
 PRIMARY = "prime2"
 NEEDED = len(EDITORS) + 1
 

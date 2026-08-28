@@ -1,18 +1,22 @@
 # How a card gets accepted
 
-Three writers write. Three editors judge it blind. The primary editor then
-gives it a final up or down. **A card ships only on four accepts out of
-four.** One reject sends it back with reasons, and when it returns it is
-judged again from zero.
+**Changed 28 Aug 2026, on Dan's instruction: single reviewer, not four.** The
+blind four-vote process is retired. A card ships on **one accept from the
+primary editor.** One reject sends it back with reasons; when it returns, it
+is judged again.
+
+The old multi-editor material below the roster table is history, kept so
+nobody rediscovers a rejected design by reinventing it. Verdict files from the
+old process (`lm2`, `lm3`, `lm4`) are inert now — `tools/review.py` no longer
+counts them. Only `prime2` verdicts move a card.
 
 ## Who does what
 
 | Role | Count | Job |
 |---|---|---|
-| **Prime 1** | 1 | In charge. Canon rulings, and keeps everyone moving. Settles anything the bible does not. |
-| **Primary editor** | 1 | Schedules the three judges, chases the slow ones, and casts the fourth and final vote. |
-| **Editors** | 3 | Judge blind. Fast verdicts with actionable reasons. |
-| **Writers** | 3 | One faction each. Project 42, Hyakki Yakō, Werk Nachtigall. |
+| **Prime 1** | 1 | In charge. Canon rulings, keeps everyone moving. Settles anything the bible does not. |
+| **Primary editor (sole reviewer)** | 1 | Judges every card. Fast, actionable verdicts. Owns throughput. |
+| **Writers** | as many as are useful | One or more per faction. Project 42, Hyakki Yakō, Werk Nachtigall. |
 
 ### Roles are held by routing handle, not by session name
 
@@ -28,26 +32,7 @@ cannot misreport about itself, and records the assignment in `ROSTER.md`.
 If you think you belong to this fleet, say so to Prime 1 in one line and take
 the role you are given. If `ROSTER.md` already lists your role, that is yours.
 
-**The primary editor votes last and may see the three.** That is deliberate:
-the three are the blind sample, and the fourth vote is a judgement made with
-the sample in hand. It is still a real vote — three accepts do not oblige a
-fourth, and the primary editor rejecting on its own reasons is the system
-working, not the system being overruled.
-
-The primary editor also owns throughput. If a card has sat for three accepts
-and no fourth, or an editor has gone quiet, that is theirs to fix without
-asking anyone.
-
 ---
-
-## The rule that makes it work: judge blind
-
-**Do not read another editor's verdict before you have written your own.**
-Not to be polite about it — a verdict you have read is a verdict you cannot
-un-read, and four editors who have seen each other's marks are one editor with
-three echoes. The whole value of four is that they are four.
-
-Write yours, commit it, and only then look at the others if you want to.
 
 ## Judge fast
 
@@ -57,15 +42,13 @@ essay. You are answering one question — *does this meet the standard in
 
 A slow reviewer is worse than a harsh one. The queue is fifteen hundred cards.
 
----
-
 ## The verdict
 
-Write `review/<slug>.<your-name>.md`:
+Write `review/<slug>.prime2.md`:
 
 ```
 card: muster-4w
-editor: lm4
+editor: prime2
 verdict: ACCEPT
 ```
 
@@ -73,7 +56,7 @@ or
 
 ```
 card: muster-4w
-editor: lm4
+editor: prime2
 verdict: REVISE
 
 - The thesis is not identifiable. Say in one sentence what this story argues.
@@ -83,7 +66,7 @@ verdict: REVISE
 
 **REVISE requires reasons, and the reasons must be actionable.** "Doesn't work
 for me" is not a verdict, it is a mood. Name the line, the paragraph, or the
-missing thesis. The writer has to be able to act on it without asking you a
+missing thesis. The writer has to be able to act on it without asking a
 question.
 
 **ACCEPT requires nothing.** Do not pad it. Do not add suggestions to an
@@ -115,30 +98,36 @@ A card that is merely *fine* is a REVISE. Fine does not design well.
 ## The loop
 
 1. Writer writes, sets `status: review` in the card header, commits.
-2. The three editors each write a verdict. **Blind — none of them reads
-   another's first.**
-3. The primary editor reads the board and casts the fourth vote.
-4. `python tools/review.py` shows where everything stands.
-5. **Four accepts** — the primary editor sets `status: accepted`. Done,
-   permanently; nobody reopens an accepted card.
-6. **Any revise** — the writer reads every reason, rewrites, resubmits.
-   **Judging starts over at zero.** An editor who accepted the first version
-   judges the new one on its own merits and may reject it.
-
-Verdict files from a previous round stay in `review/` as the record. Name the
-round in the filename if you need to: `<slug>.<editor>.r2.md`.
-
----
+2. Primary editor judges. One read, a verdict, actionable if it's a REVISE.
+3. `python tools/review.py` shows where everything stands.
+4. **ACCEPT** — primary editor sets `status: accepted`. Done, permanently;
+   nobody reopens an accepted card.
+5. **REVISE** — the writer reads the reasons, rewrites, resubmits. Judged
+   again on the new text.
 
 ## Rules of engagement, for everyone
 
-1. **Editors do not argue with writers, and writers do not argue with
-   verdicts.** A revise is not a negotiation. Rewrite it or bring it to Prime 1
-   in one sentence.
-2. **Editors do not argue with each other.** Ever. You are supposed to
-   disagree — that is what four independent judgments are for.
-3. **Nobody re-litigates a ruling from Prime 1.** It is settled.
-4. **Do not edit outside your lane.** Writers touch their own faction's cards.
-   Editors touch `review/` only.
-5. Several sessions share this clone. `git add <path>`, `git commit -- <path>`,
+1. **Nobody argues with a verdict.** A revise is not a negotiation. Rewrite it
+   or bring it to Prime 1 in one sentence.
+2. **Nobody re-litigates a ruling from Prime 1.** It is settled.
+3. **Do not edit outside your lane.** Writers touch their own faction's cards.
+   The primary editor touches `review/` and `status:` fields.
+4. Several sessions share this clone. `git add <path>`, `git commit -- <path>`,
    `git show --stat` after.
+
+---
+
+## History: the retired four-vote process
+
+*Kept for the record. Do not follow this section — it no longer applies, and
+`tools/review.py` no longer counts `lm2`/`lm3`/`lm4` verdicts. Reinstating it
+without Dan's instruction is re-litigating a settled call.*
+
+Three editors judged blind (none reading another's verdict before writing
+their own), the primary editor cast a fourth and final vote after seeing the
+sample, and a card needed four accepts out of four. The reasoning was that a
+verdict you have read is a verdict you cannot un-read, so independence only
+holds if nobody reads ahead. That is still true as a design principle — it
+was retired for speed, not because the reasoning was wrong. If throughput
+stops being the constraint, it is worth reconsidering, but only on instruction
+from Dan, the same way it was retired.

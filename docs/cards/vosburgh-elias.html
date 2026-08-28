@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MAJOR ELIAS VOSBURGH — Project 42</title>
+<style>
+:root{
+  --ink:#171310; --dim:#6a625c; --faint:#a79e97;
+  --bg:#f6f2ec; --panel:#fffdfa; --rule:#e0d8ce; --accent:#8c2f1f;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --ink:#e9e3db; --dim:#a49a91; --faint:#6f665e;
+         --bg:#14110f; --panel:#1b1714; --rule:#2e2723; --accent:#d4694f; }
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font:400 18px/1.65 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:38rem;margin:0 auto;padding:2.5rem 1.25rem 6rem}
+header.top{
+  max-width:38rem;margin:0 auto;padding:1.25rem 1.25rem 0;
+  font:600 13px/1 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--faint);
+}
+header.top a{color:var(--faint);text-decoration:none}
+header.top a:hover{color:var(--accent)}
+h1{font-size:2rem;line-height:1.15;margin:.6rem 0 1.2rem;letter-spacing:-.01em}
+h2{font-size:1.25rem;margin:2.6rem 0 .9rem;letter-spacing:-.005em}
+h3{
+  font:600 12px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--dim);
+  margin:2.2rem 0 1rem;
+}
+p{margin:0 0 1.15rem}
+hr{border:0;border-top:1px solid var(--rule);margin:2rem 0}
+a{color:var(--accent)}
+.kicker{
+  font:600 12px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin:0;
+}
+.lede{font-size:1.15rem;color:var(--dim);margin-bottom:2.5rem}
+figure{margin:1.6rem 0 2.2rem}
+figure img{width:100%;display:block;border:1px solid var(--rule);border-radius:3px}
+figure.pending .plate{
+  aspect-ratio:4/3;border:1px dashed var(--rule);border-radius:3px;
+  background:repeating-linear-gradient(45deg,transparent,transparent 9px,var(--rule) 9px,var(--rule) 10px);
+  opacity:.5;
+}
+figcaption{
+  font:400 13px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--dim);margin-top:.6rem;
+}
+.bio{
+  background:var(--panel);border:1px solid var(--rule);border-left:3px solid var(--accent);
+  padding:1.15rem 1.25rem .1rem;margin:0 0 2.6rem;border-radius:3px;
+}
+.bio p{font-size:1.02rem}
+.story p:first-of-type::first-line{font-variant-caps:small-caps;letter-spacing:.02em}
+.wc{
+  font:400 12px/1 ui-sans-serif,system-ui,sans-serif;color:var(--faint);
+  margin-top:2.5rem;text-align:right;
+}
+.pager{
+  display:flex;justify-content:space-between;gap:1rem;
+  border-top:1px solid var(--rule);padding-top:1.1rem;margin-top:1rem;
+  font:600 13px/1.4 ui-sans-serif,system-ui,sans-serif;
+}
+.pager a{text-decoration:none}
+.pager .next{margin-left:auto;text-align:right}
+.faction{margin:0 0 2.8rem}
+.blurb{color:var(--dim);margin-bottom:.9rem}
+ul.cards{list-style:none;padding:0;margin:0;border-top:1px solid var(--rule)}
+ul.cards li{
+  display:flex;align-items:baseline;gap:.75rem;
+  border-bottom:1px solid var(--rule);padding:.7rem 0;
+}
+ul.cards a{text-decoration:none;font-weight:600}
+ul.cards a:hover{text-decoration:underline}
+.meta{
+  margin-left:auto;font:400 12px/1 ui-sans-serif,system-ui,sans-serif;
+  color:var(--faint);letter-spacing:.06em;text-transform:uppercase;
+}
+.empty{color:var(--faint);font-style:italic}
+</style>
+</head>
+<body>
+<header class="top"><a href="../index.html">Project 42</a></header>
+<main class="wrap">
+<article class="card">
+<p class="kicker">Project 42 &middot; Officer &middot; <b>A tier</b></p>
+<h1>MAJOR ELIAS VOSBURGH</h1>
+<figure class="pending"><div class="plate"></div><figcaption>Art pending.</figcaption></figure>
+<section class="bio"><p>Outranks, on every document that matters, a clerk with no service record<br>
+he can point to and no authority beyond a desk, and has never once, in<br>
+four years, given her an order she did not already intend to follow,<br>
+which he understands, some nights better than others, is not the same<br>
+thing as an order she would obey.</p>
+<p>He is the officer who runs Camp Iron Bell, in the sense that his name is<br>
+on the roster, and he has arranged, without ever discussing it with<br>
+anyone, to be somewhere else — Hazlehurst, usually, on business that does<br>
+not strictly require him — for the two weeks in July when she takes her<br>
+leave, having learned once, badly, what the installation does without her<br>
+and having no wish to learn it twice while present to watch it happen.</p></section>
+<section class="story">
+<h2>THE SECOND WEEK OF JULY</h2>
+<p>He had drafted the July roster four times before he understood what he<br>
+was actually doing, which was not scheduling the camp&#x27;s work but avoiding<br>
+the two weeks in the middle of the month during which Corporal Prentiss<br>
+customarily took her leave, a fact he had known for three years and had<br>
+never once, in three years, allowed himself to arrange his own duties<br>
+around, on the grounds that a major who could not run an installation of<br>
+sixty men for a fortnight without one civilian clerk was not, properly<br>
+speaking, running it, and he had believed this about himself right up<br>
+until the one July he had tried it, the second year, when he had stayed,<br>
+on principle, and the installation had produced, over fourteen days, two<br>
+misfiled retrieval authorisations, a requisition sent to the wrong<br>
+department entirely, and a morning on which he had discovered, with a<br>
+sensation he did not care to examine too closely, that he did not know<br>
+which forms had already gone up to Wexford and which were still sitting<br>
+in the tray, a piece of information Prentiss had apparently been holding<br>
+in her head the entire time without remark, the way a woman holds the<br>
+location of a dropped pin.</p>
+<p>He had not stayed the third year. He had found, that July, a reason to be<br>
+at Hazlehurst concerning a matter that could, on reflection, have waited,<br>
+and had returned on the Monday after her leave ended to find the<br>
+installation exactly where he had left it, which he told himself was<br>
+coincidence and which he did not, in his own private accounting, believe<br>
+for one day of the two weeks he had been gone.</p>
+<p>What troubled him was not that she was necessary, since every installation<br>
+had somebody necessary and it was no great admission to say so; what<br>
+troubled him was the shape of the necessity, which was not the shape of<br>
+rank at all — he outranked her formally, comprehensively, on every<br>
+document the Army had ever printed, and she deferred to him in exactly<br>
+the manner the regulations required and not one particle further, and<br>
+somewhere inside that correct and unremarkable deference he had come, over<br>
+three years, to understand that he was afraid of her in a way he had<br>
+never once been afraid of Wexford, who could end his career with a<br>
+signature, because Wexford&#x27;s authority was written down where Vosburgh<br>
+could see it and measure it and know its edges, and Prentiss&#x27;s authority<br>
+was not written down anywhere at all, which meant he had no way of knowing<br>
+how far it went, only that it went, demonstrably, further than his own,<br>
+and that the installation had proved this to him once, in fourteen days,<br>
+without either of them ever having to discuss it.</p>
+<p>He had drafted the fourth roster on a Sunday, alone in his office, and had<br>
+filed it as the third had been filed the year before, without comment,<br>
+and had told nobody — not Wexford, not Prentiss herself, who he suspected<br>
+knew exactly what the arrangement was and had never once acknowledged it<br>
+either — and had gone, the following Monday, to Hazlehurst, on business<br>
+that did not strictly require him, satisfied with an arrangement he could<br>
+not have defended to a board of inquiry and did not, on the whole,<br>
+propose to try.</p>
+</section>
+<p class="wc">558 words</p>
+</article>
+<nav class="pager"><a class="prev" href="prentiss-ida.html">&larr; CORPORAL IDA PRENTISS</a><a class="next" href="aust-helene.html">SANITÄTSRAT HELENE AUST &rarr;</a></nav>
+</main>
+</body>
+</html>
