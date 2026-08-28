@@ -2,7 +2,7 @@
 faction: p42
 type: Ace
 tier: S
-status: review
+status: accepted
 image_caption: A metallurgist's workbench inside the wire, a half-finished
 alloy sample cooling in its jig, and beyond the fence, in the distance, a
 county road he has not walked in eleven months.

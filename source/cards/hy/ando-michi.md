@@ -2,7 +2,7 @@
 faction: hy
 type: Unit
 tier: A
-status: review
+status: accepted
 image: art/ando-michi.png
 image_caption: A mess table at Light Seven, two settings side by side; a
 woman and her brother eat in comfortable silence, neither looking at the

@@ -2,7 +2,7 @@
 faction: wn
 type: Ace
 tier: A
-status: review
+status: accepted
 image_caption: A desk with a stack of forms and a fountain pen set square
 beside it; a photograph of two girls in a frame, angled toward the chair.
 
@@ -62,8 +62,4 @@ dreadful and the light in that glass room was the loveliest thing she
 had ever seen, and Brehm-Sandt read the letter over his wife's shoulder
 weeks later and agreed with every word of it, and signed four
 requisitions before lunch, and went home that second weekend exactly on
-schedule, as he always did, a man who loved his daughters without
-qualification and had never, not once, needed to decide whether to tell
-them the truth, because the shape of his days had been arranged, by
-himself, so carefully, so long ago, that the question had simply never
-come up.
+schedule, as he always did.

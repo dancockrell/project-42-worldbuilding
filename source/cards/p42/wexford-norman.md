@@ -2,7 +2,7 @@
 faction: p42
 type: Commander
 tier: S
-status: review
+status: accepted
 image_caption: Nineteen sealed envelopes in a locked drawer, each addressed
 in the same hand, none of them opened, none of them dated later than the
 week each person arrived.

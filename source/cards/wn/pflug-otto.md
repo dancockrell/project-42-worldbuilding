@@ -2,7 +2,7 @@
 faction: wn
 type: Ace
 tier: A
-status: review
+status: accepted
 image_caption: A ledger, hand-bound, open on a workbench beside a lamp; the
 handwriting is careful and the paper is not the paper the Office issues.
 

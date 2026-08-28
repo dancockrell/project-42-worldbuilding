@@ -2,7 +2,7 @@
 faction: p42
 type: Ace
 tier: A
-status: review
+status: accepted
 image_caption: A records-office desk, a single buff folder open under a
 desk lamp; a woman's finger stopped partway down a typed page, on a phrase
 she has clearly just read for the first time.

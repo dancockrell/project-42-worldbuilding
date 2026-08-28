@@ -2,7 +2,7 @@
 faction: hy
 type: Ace
 tier: A
-status: review
+status: accepted
 image: art/sakaguchi-tomo.png
 image_caption: A records room at Light Seven; a woman in uniform stands
 before a wall of requisition slips, one hand resting on a drawer marked

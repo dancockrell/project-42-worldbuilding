@@ -2,7 +2,7 @@
 faction: hy
 type: Unit
 tier: B
-status: review
+status: accepted
 image: art/mifune-kaoru.png
 image_caption: A narrow door at Light Seven, guarded; a sergeant stands
 before it in the posture of a man who has stood there so long the posture

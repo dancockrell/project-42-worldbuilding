@@ -2,7 +2,7 @@
 faction: p42
 type: Officer
 tier: A
-status: review
+status: accepted
 image_caption: A duty roster for the second week of July, drafted in four
 different arrangements before being filed as the third, none of the
 arrangements bearing any note explaining why the third was chosen.

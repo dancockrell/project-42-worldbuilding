@@ -1,8 +1,8 @@
-# CORPORAL IDA PRENTISS
+# MRS IDA PRENTISS
 faction: p42
-type: Officer
+type: Civilian
 tier: S
-status: review
+status: accepted
 image_caption: A desk with three trays, unlabelled, the contents of each
 distinguishable from the contents of the others only to the woman who
 sorts them.

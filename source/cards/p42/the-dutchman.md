@@ -2,7 +2,7 @@
 faction: p42
 type: Ace
 tier: A
-status: review
+status: accepted
 image_caption: A row of turned earth behind the mess hall, planted in no
 pattern any garden manual would recognise, tended daily by a man whose
 name appears on no roster.

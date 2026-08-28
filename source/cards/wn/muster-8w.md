@@ -2,7 +2,7 @@
 faction: wn
 type: Unit
 tier: S
-status: review
+status: accepted
 image_caption: A kennel gate at first light, hinges gone soft with damp; a
 pale shape at the edge of the frame, low and patient, facing away.
 

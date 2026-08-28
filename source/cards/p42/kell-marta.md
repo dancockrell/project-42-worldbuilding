@@ -2,7 +2,7 @@
 faction: p42
 type: Ace
 tier: S
-status: review
+status: accepted
 image_caption: A canteen table, coffee gone cold; a woman doing arithmetic
 on the back of a form the arithmetic does not belong to, while across from
 her a young corporal waits for an answer she has already decided not to

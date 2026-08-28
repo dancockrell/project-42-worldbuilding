@@ -2,7 +2,7 @@
 faction: p42
 type: Ace
 tier: S
-status: review
+status: accepted
 image_caption: A bound volume in the camp library, open to a title page
 bearing a name that is not his; a lending card in a pocket at the back,
 several lines filled in, in more than one hand.

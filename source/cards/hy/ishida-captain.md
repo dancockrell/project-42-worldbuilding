@@ -2,7 +2,7 @@
 faction: hy
 type: Unit
 tier: A
-status: review
+status: accepted
 image: art/ishida-captain.png
 image_caption: An office at Light Seven; a captain reads a bound treaty by
 window light, one finger under Article VI, the later pages still uncut.

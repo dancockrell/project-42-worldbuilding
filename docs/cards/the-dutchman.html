@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE DUTCHMAN — Project 42</title>
+<style>
+:root{
+  --ink:#171310; --dim:#6a625c; --faint:#a79e97;
+  --bg:#f6f2ec; --panel:#fffdfa; --rule:#e0d8ce; --accent:#8c2f1f;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --ink:#e9e3db; --dim:#a49a91; --faint:#6f665e;
+         --bg:#14110f; --panel:#1b1714; --rule:#2e2723; --accent:#d4694f; }
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font:400 18px/1.65 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:38rem;margin:0 auto;padding:2.5rem 1.25rem 6rem}
+header.top{
+  max-width:38rem;margin:0 auto;padding:1.25rem 1.25rem 0;
+  font:600 13px/1 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--faint);
+}
+header.top a{color:var(--faint);text-decoration:none}
+header.top a:hover{color:var(--accent)}
+h1{font-size:2rem;line-height:1.15;margin:.6rem 0 1.2rem;letter-spacing:-.01em}
+h2{font-size:1.25rem;margin:2.6rem 0 .9rem;letter-spacing:-.005em}
+h3{
+  font:600 12px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--dim);
+  margin:2.2rem 0 1rem;
+}
+p{margin:0 0 1.15rem}
+hr{border:0;border-top:1px solid var(--rule);margin:2rem 0}
+a{color:var(--accent)}
+.kicker{
+  font:600 12px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin:0;
+}
+.lede{font-size:1.15rem;color:var(--dim);margin-bottom:2.5rem}
+figure{margin:1.6rem 0 2.2rem}
+figure img{width:100%;display:block;border:1px solid var(--rule);border-radius:3px}
+figure.pending .plate{
+  aspect-ratio:4/3;border:1px dashed var(--rule);border-radius:3px;
+  background:repeating-linear-gradient(45deg,transparent,transparent 9px,var(--rule) 9px,var(--rule) 10px);
+  opacity:.5;
+}
+figcaption{
+  font:400 13px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--dim);margin-top:.6rem;
+}
+.bio{
+  background:var(--panel);border:1px solid var(--rule);border-left:3px solid var(--accent);
+  padding:1.15rem 1.25rem .1rem;margin:0 0 2.6rem;border-radius:3px;
+}
+.bio p{font-size:1.02rem}
+.story p:first-of-type::first-line{font-variant-caps:small-caps;letter-spacing:.02em}
+.wc{
+  font:400 12px/1 ui-sans-serif,system-ui,sans-serif;color:var(--faint);
+  margin-top:2.5rem;text-align:right;
+}
+.pager{
+  display:flex;justify-content:space-between;gap:1rem;
+  border-top:1px solid var(--rule);padding-top:1.1rem;margin-top:1rem;
+  font:600 13px/1.4 ui-sans-serif,system-ui,sans-serif;
+}
+.pager a{text-decoration:none}
+.pager .next{margin-left:auto;text-align:right}
+.faction{margin:0 0 2.8rem}
+.blurb{color:var(--dim);margin-bottom:.9rem}
+ul.cards{list-style:none;padding:0;margin:0;border-top:1px solid var(--rule)}
+ul.cards li{
+  display:flex;align-items:baseline;gap:.75rem;
+  border-bottom:1px solid var(--rule);padding:.7rem 0;
+}
+ul.cards a{text-decoration:none;font-weight:600}
+ul.cards a:hover{text-decoration:underline}
+.meta{
+  margin-left:auto;font:400 12px/1 ui-sans-serif,system-ui,sans-serif;
+  color:var(--faint);letter-spacing:.06em;text-transform:uppercase;
+}
+.empty{color:var(--faint);font-style:italic}
+</style>
+</head>
+<body>
+<header class="top"><a href="../index.html">Project 42</a></header>
+<main class="wrap">
+<article class="card">
+<p class="kicker">Project 42 &middot; Ace &middot; <b>A tier</b></p>
+<h1>THE DUTCHMAN</h1>
+<figure class="pending"><div class="plate"></div><figcaption>Art pending.</figcaption></figure>
+<section class="bio"><p>The earliest retrieval the programme ever attempted, and the least<br>
+successful, in every sense the word admits — he speaks to nobody, has<br>
+spoken to nobody in three years, and is the only person at Camp Iron Bell<br>
+who is visibly, permanently frightened, a condition the file has never<br>
+managed to improve on describing beyond noting that it persists.</p>
+<p>Nobody has established whether he understands where he is. Nobody has<br>
+established it because nobody has found a way to ask that he would<br>
+answer, and the programme, having pulled a man out of roughly 1650 into a<br>
+century he cannot have any framework for, has never seriously proposed<br>
+that the silence might be the correct response to the question rather<br>
+than a failure to grasp it.</p></section>
+<section class="story">
+<h2>THE GARDEN</h2>
+<p>The cooks had noticed him first, in the second week, standing at the edge<br>
+of the kitchen plot in the grey hour before the mess opened, not doing<br>
+anything they could identify as work, simply standing, and had reported<br>
+it, mildly, to nobody in particular, the way one reports weather, and had<br>
+gone on reporting it, mildly, for several days, until one of them had<br>
+thought to leave a spade out, propped against the fence, on no particular<br>
+theory, simply because a man standing at the edge of a garden and a spade<br>
+left within reach of him seemed, to her, like two facts that ought to be<br>
+allowed to meet.</p>
+<p>He had begun digging the following morning, in a pattern the cooks did<br>
+not recognise and did not interfere with, rows that ran neither with the<br>
+fence line nor against it but at an angle that satisfied some logic none<br>
+of them could name, and had planted, over the following weeks, things the<br>
+installation had not requested and had not been asked to approve, and the<br>
+cooks had found, without discussing it among themselves, that they had<br>
+begun adjusting the kitchen&#x27;s requisitions around whatever came up in his<br>
+rows, a form of accommodation that had never been authorised by anyone<br>
+with the authority to authorise it and had simply happened, the way<br>
+useful arrangements at Camp Iron Bell tended to happen, without a form<br>
+and therefore without a name.</p>
+<p>Nobody had asked him what he was growing, there being no shared language<br>
+between the question and any answer he might have given, and the<br>
+installation&#x27;s linguists — such as they were, two men with a smattering<br>
+of the period&#x27;s Dutch between them, assembled from books rather than from<br>
+any living speaker — had tried, in his first month, and had produced<br>
+nothing, he having simply continued digging while they spoke, in a<br>
+silence they had eventually understood as neither hostility nor<br>
+incomprehension but something closer to a man declining to participate in<br>
+a conversation he had already, privately, concluded would not help either<br>
+party.</p>
+<p>He worked the garden every morning, without exception, in weather that<br>
+kept every other man at the installation indoors, and was, by the third<br>
+year, visibly less frightened while doing it than at any other hour of<br>
+the day, a fact the cooks had noticed and never reported, on the shared<br>
+and unspoken understanding that a fact like that, written down on a form,<br>
+would very likely become a fact somebody in authority felt obliged to do<br>
+something about, and the garden, as it stood, needed nothing done to it<br>
+at all.</p>
+</section>
+<p class="wc">435 words</p>
+</article>
+<nav class="pager"><a class="prev" href="sorokina-yeva.html">&larr; YEVA SOROKINA</a><a class="next" href="vosburgh-elias.html">MAJOR ELIAS VOSBURGH &rarr;</a></nav>
+</main>
+</body>
+</html>

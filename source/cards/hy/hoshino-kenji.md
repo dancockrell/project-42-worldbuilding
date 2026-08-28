@@ -2,7 +2,7 @@
 faction: hy
 type: Unit
 tier: A
-status: review
+status: accepted
 image: art/hoshino-kenji.png
 image_caption: The treaty's cabinet at Light Seven, third drawer open; a
 cloth and a small brush rest on the shelf beside the folder, exactly where

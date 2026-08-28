@@ -2,7 +2,7 @@
 faction: p42
 type: Ace
 tier: A
-status: review
+status: accepted
 image_caption: A muster book entry, 1799, in a clerk's careful copperplate:
 Ferrer, T. — lost overboard, Cape Finisterre — no further particulars
 required.

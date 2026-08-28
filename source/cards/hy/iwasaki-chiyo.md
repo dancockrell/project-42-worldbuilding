@@ -2,7 +2,7 @@
 faction: hy
 type: Ace
 tier: A
-status: review
+status: accepted
 image: art/iwasaki-chiyo.png
 image_caption: A kimono shop's back room, Kanazawa, 1943; a woman re-weaves a
 damaged sleeve by lamplight while an army form lies unsigned on the table

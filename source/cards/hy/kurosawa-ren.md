@@ -2,7 +2,7 @@
 faction: hy
 type: Ace
 tier: A
-status: review
+status: accepted
 image: art/kurosawa-ren.png
 image_caption: A barracks cot at Light Seven, lamp turned low; a drum rests
 against the wall and an unfinished letter lies on the blanket, the ink

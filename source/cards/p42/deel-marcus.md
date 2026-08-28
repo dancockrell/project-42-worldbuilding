@@ -2,7 +2,7 @@
 faction: p42
 type: Ace
 tier: S
-status: review
+status: accepted
 image_caption: The Line Shed after midnight — a bank of unlabeled dials and a
 man with his ear pressed against a warm housing, listening; behind him, under
 a tarp in the corner, a chalk outline on the concrete that nobody has

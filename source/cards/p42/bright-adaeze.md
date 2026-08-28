@@ -2,7 +2,7 @@
 faction: p42
 type: Ace
 tier: S
-status: review
+status: accepted
 image_caption: A typed memorandum, four pages, unsigned at the bottom where a
 signature block waits; a paperclip holds a fifth page that is blank.
 

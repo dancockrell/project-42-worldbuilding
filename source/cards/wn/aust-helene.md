@@ -2,7 +2,7 @@
 faction: wn
 type: Ace
 tier: S
-status: review
+status: accepted
 
 ## Draw
 

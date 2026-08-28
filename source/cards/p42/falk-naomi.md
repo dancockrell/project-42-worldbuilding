@@ -2,7 +2,7 @@
 faction: p42
 type: Officer
 tier: S
-status: review
+status: accepted
 image_caption: A stack of W.D. Form 42-C sheets, each condition code entered
 in the same careful hand, the hand slightly steadier on the sheets near the
 top of the stack than on the ones further down.

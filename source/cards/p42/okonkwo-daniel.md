@@ -2,7 +2,7 @@
 faction: p42
 type: Unit
 tier: A
-status: review
+status: accepted
 image_caption: A departure ledger on a clerk's desk, one line half-filled;
 above it, a hand-lettered sign-out board where a single name has been
 written twice in the same slot, in the same hand, without a strike-through

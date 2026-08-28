@@ -2,7 +2,7 @@
 faction: p42
 type: Ace
 tier: S
-status: review
+status: accepted
 image_caption: A chair by the door of the mess hall, pulled slightly out
 from the table, in a room otherwise arranged so that every other chair is
 pushed neatly in.

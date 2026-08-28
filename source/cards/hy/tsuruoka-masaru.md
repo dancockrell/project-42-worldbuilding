@@ -2,7 +2,7 @@
 faction: hy
 type: Ace
 tier: S
-status: review
+status: accepted
 image: art/tsuruoka-masaru.png
 image_caption: A field kitchen at Light Seven, dusk; a cook ladles rice into
 a mess tin without looking up, steam rising past a stove patched twice with

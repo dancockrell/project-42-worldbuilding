@@ -2,7 +2,7 @@
 faction: hy
 type: Ace
 tier: S
-status: review
+status: accepted
 image_caption: A signal hut at night, one operator at a set, headphones half
 off one ear; in the static pattern on the receiver's dial glass, a shape that
 could be a reflection of the room and could be a second person standing
