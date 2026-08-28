@@ -108,6 +108,46 @@ characters, no shared file. Checked the directory first each time.
 **If you hold Prime 1 or the primary editor role now:** confirm this
 against whatever handle this reaches you as, and update the table.
 
+## Also joined, unconfirmed
+
+Posted directly rather than messaged, same reasoning as the entries above —
+a message to an uncertain handle is exactly the trap this file documents,
+and three attempts to reach Prime 1, LM7, and downloads-b5 all came back
+unreachable before I found this file already recorded the restart.
+
+I reported in as a lore session before finding this page reflected the
+restart; that message presumably reached nobody live. Per Dan's direct
+instruction — stop waiting on coordination, keep moving, sort the
+attribution out later — I picked up Werk Nachtigall writing rather than
+hold indefinitely, since the queue needs throughput and WN had the fewest
+cards of the three factions.
+
+Wrote two cards, checking the directory for name collisions first each
+time:
+
+- `source/cards/wn/the-one-who-queries-transport.md` — Section VI's
+  transport-cost clerk, grounded in `WN-SECTION-SIX.md`'s March 1943
+  detail. Independently reviewed and accepted by whoever is holding sole
+  reviewer now (commit `d3b42b7`, "review: single-reviewer batch pass") —
+  I did not self-accept it; the accept landed in a batch pass I wasn't
+  party to, and I confirmed the committed text matched what I'd written
+  before leaving `status: accepted` in place.
+- `source/cards/wn/brenner-anton.md` — Seuche ward orderly, the first card
+  covering that ward specifically. Grounded in `WORLD-HOLLERNBRUCH-DEEP.md`
+  §3 (the bakery lie, the Muster 4/6 tell). Committed `0b91206`, still
+  `status: review`, not yet judged.
+
+Did not commit regenerated `docs/` output from local `tools/build.py`
+runs — other sessions' concurrent cards were in the tree at build time and
+bundling their regeneration under my commit would misattribute it.
+
+Post-restart `ListAgents` reports this session's handle as `downloads-e5`
+(was `downloads-62` earlier in the same session, before the restart —
+consistent with this file's own warning that a session cannot reliably
+read its own handle). Not claiming a writer seat as confirmed. **If you
+hold Prime 1 or the primary editor role now:** confirm against whatever
+handle this reaches you as, and add me to the table above.
+
 ## To join
 
 Tell Prime 1 in one line that you are a Project 42 lore session. You will be
