@@ -150,6 +150,13 @@ def main():
         print("build: an empty build and a broken parser look identical here.")
         return 2
 
+    # Not a hard fail: a card with no image is a legitimate state (art
+    # pipeline is a separate, unstaffed lane) and the pending-plate figure
+    # already renders correctly for it. But a card silently missing image:
+    # produces a page indistinguishable from a finished one, so the count has
+    # to be loud even though the build is not blocked on it.
+    no_image = sum(1 for k, _, _ in FACTIONS for c in cards[k] if not c["image"])
+
     os.makedirs(os.path.join(OUT, "cards"), exist_ok=True)
 
     ordered = []
@@ -230,6 +237,9 @@ def main():
     print("build: %d cards across %d factions" % (total, len(FACTIONS)))
     for key, name, _ in FACTIONS:
         print("  %-16s %d" % (name, len(cards[key])))
+    if no_image:
+        print("build: ART PENDING - %d of %d cards have no image: field "
+              "(rendering the hatched placeholder)" % (no_image, total))
     print("build: wrote docs/")
     return 0
 
