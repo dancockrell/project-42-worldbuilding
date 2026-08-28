@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MUSTER 8/w — &quot;WERWOLF&quot; — Project 42</title>
+<style>
+:root{
+  --ink:#171310; --dim:#6a625c; --faint:#a79e97;
+  --bg:#f6f2ec; --panel:#fffdfa; --rule:#e0d8ce; --accent:#8c2f1f;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --ink:#e9e3db; --dim:#a49a91; --faint:#6f665e;
+         --bg:#14110f; --panel:#1b1714; --rule:#2e2723; --accent:#d4694f; }
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font:400 18px/1.65 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:38rem;margin:0 auto;padding:2.5rem 1.25rem 6rem}
+header.top{
+  max-width:38rem;margin:0 auto;padding:1.25rem 1.25rem 0;
+  font:600 13px/1 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--faint);
+}
+header.top a{color:var(--faint);text-decoration:none}
+header.top a:hover{color:var(--accent)}
+h1{font-size:2rem;line-height:1.15;margin:.6rem 0 1.2rem;letter-spacing:-.01em}
+h2{font-size:1.25rem;margin:2.6rem 0 .9rem;letter-spacing:-.005em}
+h3{
+  font:600 12px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--dim);
+  margin:2.2rem 0 1rem;
+}
+p{margin:0 0 1.15rem}
+hr{border:0;border-top:1px solid var(--rule);margin:2rem 0}
+a{color:var(--accent)}
+.kicker{
+  font:600 12px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin:0;
+}
+.lede{font-size:1.15rem;color:var(--dim);margin-bottom:2.5rem}
+figure{margin:1.6rem 0 2.2rem}
+figure img{width:100%;display:block;border:1px solid var(--rule);border-radius:3px}
+figure.pending .plate{
+  aspect-ratio:4/3;border:1px dashed var(--rule);border-radius:3px;
+  background:repeating-linear-gradient(45deg,transparent,transparent 9px,var(--rule) 9px,var(--rule) 10px);
+  opacity:.5;
+}
+figcaption{
+  font:400 13px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--dim);margin-top:.6rem;
+}
+.bio{
+  background:var(--panel);border:1px solid var(--rule);border-left:3px solid var(--accent);
+  padding:1.15rem 1.25rem .1rem;margin:0 0 2.6rem;border-radius:3px;
+}
+.bio p{font-size:1.02rem}
+.story p:first-of-type::first-line{font-variant-caps:small-caps;letter-spacing:.02em}
+.wc{
+  font:400 12px/1 ui-sans-serif,system-ui,sans-serif;color:var(--faint);
+  margin-top:2.5rem;text-align:right;
+}
+.pager{
+  display:flex;justify-content:space-between;gap:1rem;
+  border-top:1px solid var(--rule);padding-top:1.1rem;margin-top:1rem;
+  font:600 13px/1.4 ui-sans-serif,system-ui,sans-serif;
+}
+.pager a{text-decoration:none}
+.pager .next{margin-left:auto;text-align:right}
+.faction{margin:0 0 2.8rem}
+.blurb{color:var(--dim);margin-bottom:.9rem}
+ul.cards{list-style:none;padding:0;margin:0;border-top:1px solid var(--rule)}
+ul.cards li{
+  display:flex;align-items:baseline;gap:.75rem;
+  border-bottom:1px solid var(--rule);padding:.7rem 0;
+}
+ul.cards a{text-decoration:none;font-weight:600}
+ul.cards a:hover{text-decoration:underline}
+.meta{
+  margin-left:auto;font:400 12px/1 ui-sans-serif,system-ui,sans-serif;
+  color:var(--faint);letter-spacing:.06em;text-transform:uppercase;
+}
+.empty{color:var(--faint);font-style:italic}
+</style>
+</head>
+<body>
+<header class="top"><a href="../index.html">Project 42</a></header>
+<main class="wrap">
+<article class="card">
+<p class="kicker">Werk Nachtigall &middot; Unit &middot; <b>S tier</b></p>
+<h1>MUSTER 8/w — &quot;WERWOLF&quot;</h1>
+<figure class="pending"><div class="plate"></div><figcaption>Art pending.</figcaption></figure>
+<section class="bio"><p>Four hundred pounds, and it runs down a horse the way a debt runs down a<br>
+man, unhurried and certain. The Allies named it. The Office never has —<br>
+the file says <em>Muster 8, variant w</em>, muzzles being handled stock, named<br>
+for the equipment rather than the animal, which is how the men avoid<br>
+naming the animal.</p>
+<p>It takes commands by whistle at eleven hundred metres and holds a scent<br>
+through standing water. Someone removed the howl in 1939 and wrote a<br>
+paper about the removal, and the paper is filed, and the howl has not<br>
+come back.</p></section>
+<section class="story">
+<h2>THE PLATE</h2>
+<p>By August the ditches along the east dyke had stopped smelling of<br>
+anything living and started smelling of the marsh itself, warm and<br>
+brown and patient, the way standing water smells when it has given up<br>
+trying to go anywhere, and Gefreiter Lindt walked the animal along the<br>
+top of that smell every morning with eleven feet of chain in his hand<br>
+and nine of it let out, because nine was standing orders, whatever<br>
+Pflug said at the gate about wanting more out here.</p>
+<p>The Muster went ahead of him with its head low and its shoulders<br>
+rolling under a coat gone stiff with old water and soft again with new,<br>
+and twice that morning it stopped for a hare and looked back at him<br>
+with the patience of something taught, thoroughly, that its own<br>
+wanting is not the part that matters, and both times Lindt said nothing<br>
+and it went on, the chain never once finding the end of its nine feet.</p>
+<p>At the sluice the whistle came from the reeds, two notes, and the<br>
+animal&#x27;s head came up the way a man&#x27;s head comes up at his own name in<br>
+a crowded room. It went into the water without a sound, and it was<br>
+already across before Lindt had both hands on the chain, and the chain<br>
+ran the rest of itself through his palms and burned there, and he let<br>
+it go, because a man who does not let go of eleven feet of chain goes<br>
+into the water after it and does not always come out the way the chain<br>
+does.</p>
+<p>He found it four hundred metres on, past the beet rows, standing over<br>
+a boy of perhaps fifteen who had gone down in the wet earth and was not<br>
+moving except to breathe, shallow and quick, the way a rabbit breathes<br>
+under a hand. The Muster was not touching him. It had set one forefoot<br>
+on his coat, pinning cloth and nothing underneath the cloth, ribs going<br>
+like a bellows, water sheeting off it into the furrow, looking back<br>
+down the field at Lindt, waiting, in no particular hurry, to be told.</p>
+<p>The whistle came again from the reeds, unmistakably the same hand. The<br>
+animal did not move.</p>
+<p>Lindt came up slow through the mud and got the chain and took a turn<br>
+of it round his fist, and the Muster let him, and he stood there a<br>
+moment with the boy&#x27;s breathing under his boot and the marsh going on<br>
+smelling of itself in every direction, and he decided, without<br>
+deciding it in any way he could have written down, that the animal had<br>
+not heard the second whistle. Water in the ears. It had only just come<br>
+up out of the sluice.</p>
+<p>That is what went into the log that evening, under a lamp that smelled<br>
+faintly of the same brown water, and Section Six read it on Thursday<br>
+with sixty others and agreed. Water in the ears. A maintenance matter.</p>
+<p>They brought it in the following week and looked at the ears, out of<br>
+what somebody wrote down as thoroughness, and the ears were fine, and<br>
+that went into a different file, and nobody has yet been asked to<br>
+reconcile the two.</p>
+</section>
+<p class="wc">540 words</p>
+</article>
+<nav class="pager"><a class="prev" href="aust-helene.html">&larr; SANITÄTSRAT HELENE AUST</a></nav>
+</main>
+</body>
+</html>
