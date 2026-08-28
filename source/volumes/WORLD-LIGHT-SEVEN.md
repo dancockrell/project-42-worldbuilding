@@ -97,8 +97,8 @@ folder with a ribbon. **Shrine-Keeper Petty Officer Hoshino dusts it.**
 *Corrected 27 Aug 2026: read "Sergeant". `WORLD-THE-FUSED.md` has always said
 Petty Officer Hoshino Kenji, and `the-petty-officer.md` redirects under that
 rank. **Third personnel error in this volume today** — Mifune's rank, the fused
-count, and this. Volume XVI wins on all three: it is the roster whose job these
-facts are.* That is the
+count, and this. `WORLD-THE-FUSED.md` wins on all three: it is the roster
+whose job these facts are.* That is the
 entire ritual associated with the most important document the programme
 possesses, and Hoshino is fully aware of that and does it properly anyway.
 
@@ -139,11 +139,21 @@ mechanism anybody can point to.
 of March 1944.
 
 *Corrected 27 Aug 2026: this section read "thirty-eight" and was the origin of
-that number across nine wiki pages. Volume XVI has said forty-one since the
-commit that created it, and nothing distinguishes selected from fused, so
-forty-one fused could not exceed thirty-eight selected. Volume XVI wins: it is
-the dedicated roster, it dates its figure, and Hoshino's forty-one ceremonies
-corroborate it independently. Second correction to this section today.*
+that number across nine wiki pages. `WORLD-THE-FUSED.md` has said forty-one
+since the commit that created it, and nothing distinguishes selected from
+fused, so forty-one fused could not exceed thirty-eight selected.
+`WORLD-THE-FUSED.md` wins: it is the dedicated roster and it dates its figure.
+(Earlier drafts of this note cited "Volume XVI," which on this machine also
+names `WORLD-HOLLERNBRUCH-DEEP.md` and `WORLD-THE-QUESTION.md` — cite volumes
+by filename, not number, per the standing ruling. This note also credited the
+figure to "Hoshino's forty-one ceremonies," misreading `WORLD-THE-FUSED.md`'s
+line about an unnamed unchosen man who has "attended forty-one ceremonies and
+stopped counting" — a different person and a different count. The real,
+independent corroboration is arithmetic: `HY-THE-CEREMONY.md` gives
+thirty-seven ceremony-followed fusions since the programme began, plus the
+four ceremony-less fusions at Light Seven in August 1941, before any programme
+existed to hold one. 37 + 4 = 41, exactly. Third correction to this section
+today.)*
 
 The rest stay.
 
