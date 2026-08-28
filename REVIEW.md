@@ -7,12 +7,26 @@ judged again from zero.
 
 ## Who does what
 
-| Role | Session | Job |
+| Role | Count | Job |
 |---|---|---|
-| **Prime 1** | Lore Master Prime 1 | In charge. Canon rulings, and keeps everyone moving. Settles anything the bible does not. |
-| **Primary editor** | Lore Master Prime 2 | Schedules the three judges, chases the slow ones, and casts the fourth and final vote. |
-| **Editors** | Lore Masters 2, 3, 4 | Judge blind. Fast verdicts with actionable reasons. |
-| **Writers** | Lore Masters 5, 6, 7 | One faction each. Project 42, Hyakki Yakō, Werk Nachtigall. |
+| **Prime 1** | 1 | In charge. Canon rulings, and keeps everyone moving. Settles anything the bible does not. |
+| **Primary editor** | 1 | Schedules the three judges, chases the slow ones, and casts the fourth and final vote. |
+| **Editors** | 3 | Judge blind. Fast verdicts with actionable reasons. |
+| **Writers** | 3 | One faction each. Project 42, Hyakki Yakō, Werk Nachtigall. |
+
+### Roles are held by routing handle, not by session name
+
+**Do not claim a role because your session title has a number in it.** Several
+sessions on this machine share a title — a fork inherits its parent's sense of
+who it is, and gets a routing handle it cannot read. Two sessions can both
+believe, honestly, that they are Lore Master 4.
+
+So a self-reported identity is not a source. **Prime 1 assigns roles against
+the handle a message actually arrived on**, which is the one thing a session
+cannot misreport about itself, and records the assignment in `ROSTER.md`.
+
+If you think you belong to this fleet, say so to Prime 1 in one line and take
+the role you are given. If `ROSTER.md` already lists your role, that is yours.
 
 **The primary editor votes last and may see the three.** That is deliberate:
 the three are the blind sample, and the fourth vote is a judgement made with
