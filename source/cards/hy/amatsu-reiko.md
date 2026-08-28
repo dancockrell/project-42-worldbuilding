@@ -3,6 +3,7 @@ faction: hy
 type: Commander
 tier: S
 status: review
+image: art/amatsu-reiko.png
 image_caption: A commanding officer's desk at Light Seven, the treaty's third
 drawer visible open behind her; she is signing a routine transfer order and
 not looking at the camera.
