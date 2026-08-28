@@ -15,10 +15,10 @@ million the record never sorted out, which taught her, before she was
 twenty, the exact administrative weight of a list with your name spelled
 wrong on it — a lesson Camp Iron Bell has done nothing to unteach her.
 
-She breaks the Office's traffic faster than anyone Section who has tried
-to time her, and trusts exactly one person on the installation: Mrs Ida
-Prentiss, who has no clearance, no rank, and therefore nothing to gain
-from being told the truth.
+She breaks intercepted traffic faster than anyone who has timed her, and
+trusts exactly one person on the installation: Mrs Ida Prentiss, who has
+no clearance, no rank, and therefore nothing to gain from being told the
+truth.
 
 ## Story
 
