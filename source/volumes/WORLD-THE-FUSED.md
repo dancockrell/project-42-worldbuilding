@@ -58,7 +58,7 @@ was itself not commented on.
 **He still cooks.** He has asked for nothing in three years except a better
 stove, twice, and been refused both times on cost.
 
-> *Not in the file: whether he understood, at any point, that he had a choice.*
+**Open:** whether he understood, at any point, that he had a choice.
 
 ---
 
@@ -89,7 +89,7 @@ So a lieutenant comes, twice a year, and asks a woman four questions she long
 ago worked out the shape of, and she says no, and he writes *no*, and they both
 go on with it.
 
-> *Not in the file: what she would say if he asked a fifth.*
+**Open:** what she would say if he asked a fifth.
 
 ---
 
@@ -109,7 +109,7 @@ has said about what.**
 *Voice:* precise, courteous, and impossible to draw out. He will answer any
 question asked and volunteer nothing whatsoever.
 
-> *Not in the file: which account he believes.*
+**Open:** which account he believes.
 
 ---
 
@@ -131,8 +131,8 @@ She has stopped bringing it up. She has not stopped listening.
 questions out loud. The others have learned not to. She has not, and Amatsu has
 twice declined to have her taught.
 
-> *Not in the file: whether the tone was there before August 1941 and nobody was
-> listening.*
+**Open:** whether the tone was there before August 1941 and nobody was
+listening.
 
 ---
 
@@ -151,7 +151,7 @@ full, correctly, and he stood through it.
 Ishida told him Article 6 protects them. He believed it once. He has not said
 whether he still does, and Ishida has not noticed the difference.
 
-> *Not in the file: what he asked for.*
+**Open:** what he asked for.
 
 ---
 
@@ -172,7 +172,7 @@ He has played the first one nine times. He has not played the second.
 
 *Voice:* warm, funny in company, and writes letters he does not send.
 
-> *Not in the file: how many are in the drawer.*
+**Open:** how many are in the drawer.
 
 ---
 
@@ -189,7 +189,7 @@ in that time. They work the same shift. They eat at the same table. **They are
 perfectly friendly** and there is a subject the size of a house that neither has
 approached from any direction.
 
-> *Not in the file: which of them is avoiding it.*
+**Open:** which of them is avoiding it.
 
 ---
 
@@ -207,7 +207,7 @@ She is the closest thing the faction has to a scientist and she is not one, and
 she is aware of the difference, which is more than the programme's actual
 scientists have managed.
 
-> *Not in the file: what she will do when the twelfth fails.*
+**Open:** what she will do when the twelfth fails.
 
 ---
 
@@ -220,12 +220,12 @@ Office declined to.
 Hyakki Yakō carries them as missing, presumed lost in the Pacific. **The
 programme does not know where they are and has not stopped looking.**
 
-Sakaguchi's file on them is the thickest in the cabinet and consists almost
-entirely of the search.
+Sakaguchi has spent three years on the search and has nothing else to show
+for it.
 
-> *Not in the file, and not in any file: that the watcher's attention on them
-> never lapsed for one moment of the eleven weeks. Nobody in the world knows
-> this. No character may discover it (Volume X, hub edges).*
+**Known only to the reader, never to a character:** the watcher's attention
+on them never lapsed for one moment of the eleven weeks (Volume X, hub
+edges). No character may discover this.
 
 ---
 

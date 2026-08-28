@@ -64,6 +64,74 @@ No line of the story tells the reader what to think. The construction does the
 arguing. If your last paragraph explains the point, cut the last paragraph —
 the story was already over.
 
+### Paperwork is not a plot
+
+**Rejected harder, same day, same batch:** it wasn't only the ending. Every
+one of fifty-one cards was actually *about* a document — a report, a
+requisition, a ledger, an intake form, a notebook, a file. The document was
+the plot engine in all of them: something happens, and the story is really
+about what gets written down, or fails to be written down, or is filed
+wrong. Dan's words: **"it's all about files too. the literal worst thing to
+write about in the whole world."**
+
+A card is not a story about a piece of paper. **A story is about a person
+doing something, wanting something, up against another person or a real
+danger, and the paper — if it appears at all — is furniture in the room
+where that happens, never the reason the room exists.** A requisition can sit
+on a desk in the corner of a scene about a rescue. A requisition cannot *be*
+the scene.
+
+Before you write: **if you deleted every form, file, ledger, requisition and
+report from your draft, would there still be a story?** If the answer is no,
+you have not written one yet — you have written an anecdote about
+paperwork's limits, which this setting already has an entire faction's worth
+of and does not need five hundred more of.
+
+This is not new direction. It was given hours before this batch was written:
+*"we lean into the machinery, not the drudgery, cause that's boring."* The
+batch reached for drudgery anyway, at scale, because it is the safe,
+low-risk default — nobody gets a scene wrong if nothing actually happens in
+it. Writing an actual event is the harder and required choice.
+
+### One formula is not 1500 thought experiments
+
+**Rejected wholesale, 28 Aug 2026, after fifty-one cards turned out to share
+one skeleton:** a character encounters an institution's paperwork failing to
+capture the truth of their own condition, nobody explains it, and the story
+ends on a narrator's "had/had not decided" abstraction that names an
+unresolved ambiguity instead of stating it plainly. Different props — a
+consulting unit, a transport ledger, a segregated fountain — same five moves,
+same sentence architecture, every time. Dan's verdict: *worse than not
+writing them,* because it performs 500 distinct thought experiments while
+actually running one on a loop, and a reader who hits three in a row spots
+the trick and stops trusting all of them.
+
+**A device used once is a choice. Used across the corpus, it is the
+formula.** If you notice yourself reaching for "the file/form/ledger has no
+box for this" — that device has already been used. Reach for something else.
+Some things this setting can do that "bureaucracy fails to hold the truth"
+cannot:
+
+- **An ending that is an action or a decision, not an abstraction.** A
+  character does something irreversible, or fails to, and the story stops on
+  the doing — not on a sentence *about* not being able to say what happened.
+- **Real conflict.** Someone opposes the protagonist, wants something
+  different, and the story is decided by what happens between them, not by
+  institutional silence absorbing both of them equally.
+- **A different emotional register entirely.** Genuinely funny and nothing
+  else. Genuinely triumphant. Genuinely violent and unambiguous about it.
+  Not every card needs to end in melancholy irresolution — §0c requires
+  *cool*, and cool is not achieved by paperwork failing to capture a soldier's
+  interior life for the fortieth time.
+- **A thesis that is not "the record erases the human truth of X."** That is
+  one thesis. It is a good one. It is not the only one this setting has, and
+  if you cannot state a card's thesis without that sentence's shape, write a
+  different thesis before you write a word of prose.
+
+Before submitting: **read your last paragraph next to the last paragraph of
+the three most recently accepted cards in your faction.** If the shape
+matches, the ending is not yours yet.
+
 ---
 
 ## Every attribute is chosen

@@ -199,7 +199,7 @@ back in the order he found them. Sakaguchi's twelfth theory does not cite Articl
 VII. It is simply not mentioned, by anyone, ever, and there is no instruction
 anywhere that it should not be.
 
-> *Not in the file: whether anyone has tried.*
+**Open:** whether anyone has tried.
 
 ---
 

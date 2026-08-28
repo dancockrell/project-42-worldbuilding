@@ -92,86 +92,36 @@ adding paragraphs.
 
 ---
 
-## 4. Bio structure — the 500 words
+## 4. Bio structure — SUPERSEDED 28 Aug 2026, see WRITING.md
 
-Six movements. Each bio is a **document that exists in the world** (Vol IX), not
-narration about one.
+**Everything below this line, through the end of section 5, is retired. Do not
+use it. It is the source of a corpus-wide defect and is kept only so nobody
+reintroduces it by rediscovering it.**
 
-1. **The frame** (~30 words). What kind of document. Personnel file, incident
-   report, requisition denial, letter, ward log, estimate annexe.
-2. **Identity** (~60). Name, role, origin, and how they came to be here. Flat.
-3. **The record** (~120). What they have done, in the institution's own voice.
-   Understated. The paperwork does not editorialise.
-4. **The relation** (~140). **Drawn from the strongest conflicting edge.** This
-   is the spine and it is the only part that is really about a person.
-5. **The contradiction** (~100). What the record and the relation cannot both be
-   true about.
-6. **What is not in the file** (~50). The §00 slot. **Every bio ends
-   unresolved.** No exceptions — this is the house style and it is the reason
-   the set does not read as closed.
+The original scheme mandated that every bio be **written as an institutional
+document** — a personnel file, an incident report, an estimate annexe — in
+"the institution's own voice," and required every single one to close on a
+paperwork-witnessed unresolved question ("what is not in the file... every
+bio ends unresolved, no exceptions"). Fifty-one cards were written to this
+shape (or to the shape it taught by example) and every one of them turned out
+to be structurally identical: a document fails to capture a person's truth,
+nobody explains it, the story ends on an abstraction. Dan's verdict, in full:
+*"it's all about files too. the literal worst thing to write about in the
+whole world."* The defect was not a writer's execution error. It was this
+spec, followed correctly.
 
----
+**The current standard is `WRITING.md`.** A story is a person doing
+something, wanting something, in conflict — not a document, and not a
+scene about a document's limits. Paper, when it appears, is furniture in the
+room, never the reason the room exists.
 
-## 5. Worked example — Captain (Dr) Naomi Falk
-
-Generated from her edge set, not from a template. Her edges:
-
-```
-Falk --COMMAND--> (none)          Wexford --COMMAND--> Falk        0.8
-Falk --DEBT--> Halloran-Sze       0.9   (deceased)
-Falk --KNOWLEDGE--> Reyes-Whitlock 0.9
-Falk --REGARD--> Reyes-Whitlock   +0.8
-Falk --BLAME--> Wexford           0.5
-Falk --FEAR--> Prentiss           0.3
-Prentiss --KNOWLEDGE--> Falk      0.4
-Falk <--PROXIMITY--> Reyes-Whitlock 0.7
-```
-
-**Strongest conflict:** KNOWLEDGE 0.9 + REGARD +0.8 toward the same person,
-against COMMAND 0.8 from Wexford requiring her signature on a form that
-understates exactly what she knows. That is the spine and the bio wrote itself
-from it.
-
----
-
-> **CAMP IRON BELL — MEDICAL SECTION**
-> Officer's record. Falk, Naomi, Capt. (MC). Appended: standing authority to
-> sign W.D. 42-C.
-
-Captain Falk came to Iron Bell in September 1943 from a station hospital in
-Georgia, on a transfer she did not request and was not asked about. She is a
-physician of ordinary competence and unusual patience. The camp has no other
-doctor.
-
-Her authority is narrow and total: she signs the coherence codes. **Every
-condition code on every W.D. 42-C at Camp Iron Bell carries her initials**, and
-the form is the only instrument the programme has for saying whether a man is
-still reliably present.
-
-She stopped believing the bands in June.
-
-The tables were written to be signed rather than to be true, and she did not work
-that out herself — Dr Miriam Halloran-Sze, settled, read them in her first week
-and said so plainly, and then died of a stroke in February with nothing filed.
-Falk has her notes. Falk has never filed them either, and the reason is in the
-second paragraph rather than the first: **there is no other doctor.** A physician
-who refuses to sign is a physician who is replaced by a physician who will, and
-Falk has done the arithmetic on who that would be and what it would cost the men
-on the establishment.
-
-So she signs. **She has signed 3-C SATISFACTORY on Able Seaman Tomás
-Reyes-Whitlock eleven times**, most recently three weeks ago, and she has watched
-people stop noticing him in rooms and then apologise when he speaks. She sits
-nearer to him at mess than her rank requires. He has asked her one question,
-twice, and she has not answered it, and she is the only person at Iron Bell who
-knows what the question was.
-
-The record shows an officer performing her duty without exception. The relation
-shows a woman who knows the duty is a lie and performs it anyway for reasons she
-would defend to a board. **Both are accurate. The file has room for one.**
-
-> *Not in the file: whether she has ever considered that Halloran-Sze also
-> chose not to file, and whether that was the same decision.*
+The relational data below (the edges, the network) remains good and is not
+retired — `tools/edges.py` reads `NETWORK-HUB-EDGES.md` directly and that data
+is genuinely useful for keeping cross-card relationships consistent. What is
+retired is the *prose template* built on top of it: writing every bio as an
+in-world document narrated in institutional voice. Use the edges to find what
+is true between two characters. Do not use the old worked example below as a
+model for how to write it up.
 
 ---
 

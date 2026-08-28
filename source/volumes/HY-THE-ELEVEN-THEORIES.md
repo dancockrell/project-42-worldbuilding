@@ -121,4 +121,4 @@ were never selected.**
 
 Nobody has previously thought the unchosen were data.
 
-> *Not in the file: what she thinks the unchosen are evidence of.*
+**Open:** what she thinks the unchosen are evidence of.
