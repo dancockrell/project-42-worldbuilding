@@ -44,7 +44,7 @@ Keep the number small in every medium. The programme's power is not scale.
 
 ### Corporal Adaeze Bright — Current
 
-**From 2031.** Retrieved March 1943, the second successful closure.
+**From 2031.** Retrieved July 1943, the second successful closure.
 
 Reads a live wire the way other people read weather. Holds current across a
 chain of people without killing them, which nobody at Iron Bell can explain and

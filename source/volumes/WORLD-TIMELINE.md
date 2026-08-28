@@ -140,6 +140,14 @@ nothing in it. See Volume IV §3.
 **◆ November 1943.** Frame Two kills Sergeant Aurelio Fitch. The first retrieval
 closes on Frame Three the following month.
 
+*Not an error, and do not “correct” it. Four people are already on the
+roster with retrieval dates from March to November 1943, all of them through
+Frame Three. December is when Frame Three begins working in the ordinary
+causal sense — Osei arrives in November through it, and six weeks later
+solves the closure problem that makes it work. The earlier retrievals are the
+ones it had already done. That is what Volume II means by *the one that
+already worked*, and why nobody at the camp says it out loud.*
+
 ---
 
 ## ◆ Where 1944 stands
