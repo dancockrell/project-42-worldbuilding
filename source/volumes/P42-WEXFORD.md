@@ -112,4 +112,13 @@ interesting enough to write down anywhere.
 
 - What is in the nineteen letters.
 - Whether he has ever suspected the Finding applies to him.
+- **Whether he has ever counted how many of the nineteen were not already
+  lost.** Three were not. Bright, Cheung and Kell are forward-settled, and
+  the record did not lose them — it has not reached them yet. His defence in
+  §2 covers sixteen people and he has never noticed which three it does not.
+  *This is deliberate. Do not qualify the claim in §2 to fix it, and never
+  let him work it out.* It is the same blindness as the Finding, with three
+  names attached who eat in his mess, and it is the one argument Bright could
+  make that would actually reach him — which she cannot, because the
+  memorandum stays unsent.
 - Why he times the Thursday walk.
