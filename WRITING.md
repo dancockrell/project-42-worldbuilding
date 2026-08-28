@@ -66,6 +66,37 @@ the story was already over.
 
 ---
 
+## Every attribute is chosen
+
+**The single most useful finding from the wiki that preceded this one.** Five
+classes of defect were audited across two hundred-odd pages. Two of them fired
+and three came back clean, and the split was not random:
+
+> **It was wrong where nobody made a decision, and right where somebody did.**
+
+The two that fired were both attributes nobody had chosen. Gender on pages
+about unnamed roles — sixty per cent wrong, because a sentence needed a pronoun
+and the unmarked case supplied one. A headcount that was copied forward four
+times and never decided. Meanwhile dates, cross-faction knowledge and voice —
+all things somebody sat down and settled — came back clean.
+
+Nobody was careless. **The language filled in what the writer had not
+specified**, and it filled it in with the default, and the default was wrong
+about as often as you would expect a coin to be.
+
+Which means the failure scales with volume, and we are writing fifteen hundred
+of these. So, before you write:
+
+**Rank, service, gender, nationality, age, dates — check each one against the
+volumes, or decide it deliberately.** A petty officer at a naval station got an
+army rank because a sentence needed a rank and the writer did not stop. If the
+source is silent and the fact does not matter, leave it out; if it does matter,
+choose it and know that you chose it.
+
+The test is not *is this plausible*. It is **did anyone decide this**.
+
+---
+
 ## The prose
 
 **Magical realism.** The marvellous is reported in the same voice as the
