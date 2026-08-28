@@ -13,7 +13,7 @@ only thing a session cannot misreport about itself, so the handle is the key.
 | Prime 1 — in charge, canon rulings | `Project 42 Lore Master Prime 1` | held |
 | Writer — Werk Nachtigall | `Project 42 Lore Master 7` | held |
 | Primary editor — fourth vote | *unassigned* | |
-| Editor | *unassigned* | |
+| Editor (LM2) | `downloads-c4` | held |
 | Editor | *unassigned* | |
 | Editor | *unassigned* | |
 | Writer — Project 42 | *unassigned* | |
