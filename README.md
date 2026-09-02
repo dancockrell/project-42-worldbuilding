@@ -72,3 +72,15 @@ empty build and a broken parser look identical from the outside.
 *The Answer is 42. Nobody knows the Question. An answer without its question
 explains nothing, and the whole comedy is that the number is useless and
 everybody wanted it anyway.*
+
+---
+
+**Lore fork notice, added 2 Sep 2026.** `world-aflame-godot/docs/` and
+`project-42-worldbuilding/` both hold a copy of the shared Project 42 lore
+(LORE-BIBLE.md and the volume files) and they have diverged since ~28 Aug
+2026. Each has real, independent corrections the other is missing —
+`world-aflame-godot` continued forward on 29 Aug (the bureaucracy-as-comedy
+purge, flavor regeneration); `project-42-worldbuilding` received separate
+canon work the same day (retrieval-ordering fixes, a paperwork-template
+retirement) that was never synced back. Neither copy alone is complete
+authority right now. This needs a real reconciliation pass, not a pick.
