@@ -1,6 +1,6 @@
 # PROJECT 42 — LORE BIBLE
 
-> **Retained WW2 lore corpus; qualified authority (5 September 2026).** This does not govern fantasy Pirate Island. Historical precedence and session-owner claims below are not current authority by themselves. Apply [the later tone correction](https://github.com/dancockrell/world-aflame-godot/issues/18) over contradictory thesis-driven or bureaucracy-as-horror passages. The repository README records unresolved divergence between the two lore copies; this audit preserves that evidence and does not claim a completed fiction reconciliation.
+> **Retained WW2 lore corpus; qualified authority (5 September 2026).** This does not govern fantasy Pirate Island. Historical precedence and session-owner claims below are not current authority by themselves. Apply [the retained tone correction](README.md#retained-tone-correction) over contradictory thesis-driven or bureaucracy-as-horror passages. The repository README records the deletion of both World Aflame game repositories. Earlier cross-copy and session-ownership claims below are historical; future card-game work requires a fresh coherent design document.
 
 **Volume I: The Constitution**
 Last revised 27 Aug 2026.

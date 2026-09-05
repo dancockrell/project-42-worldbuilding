@@ -1,6 +1,6 @@
 # Project 42
 
-> **Scope and authority, 5 September 2026:** this repository preserves the alternate-WW2 setting used by World Aflame and earlier related games. It does not govern the fantasy Pirate Island RTS. The two existing lore copies still require reconciliation as recorded below. [The later tone correction](https://github.com/dancockrell/world-aflame-godot/issues/18) supersedes thesis-driven and bureaucracy-as-horror guidance: new writing uses pulp adventure, without preaching. Older passages remain development evidence, not permission to revive the rejected direction.
+> **Scope and authority, 5 September 2026:** this repository preserves the alternate-WW2 setting used by World Aflame and earlier related games. It does not govern the fantasy Pirate Island RTS. World Aflame has been retired and both game repositories were deleted on 5 September 2026. [The retained tone correction](#retained-tone-correction) supersedes thesis-driven and bureaucracy-as-horror guidance: new writing uses pulp adventure, without preaching. Older passages remain development evidence, not permission to revive the rejected direction.
 
 Shared worldbuilding for an alternate-history Second World War, fought by three
 systems.
@@ -8,9 +8,9 @@ systems.
 **Read it here: https://dancockrell.github.io/project-42-worldbuilding/**
 
 This repository is the universe. The games are built from it and link back to
-it — [World Aflame](https://github.com/dancockrell/world-aflame-godot) is the
-card game, and The Long Night and Ghost Front are the same setting from other
-angles. Lore lives here so that no single game owns it and no single game's
+it historically — World Aflame was the card game, and The Long Night and
+Ghost Front explored the same setting from other angles. The World Aflame
+repositories have now been deleted. Lore lives here so that no single game owns it and no single game's
 context can lose it.
 
 ---
@@ -74,12 +74,14 @@ everybody wanted it anyway.*
 
 ---
 
-**Lore fork notice, added 2 Sep 2026.** `world-aflame-godot/docs/` and
-`project-42-worldbuilding/` both hold a copy of the shared Project 42 lore
-(LORE-BIBLE.md and the volume files) and they have diverged since ~28 Aug
-2026. Each has real, independent corrections the other is missing —
-`world-aflame-godot` continued forward on 29 Aug (the bureaucracy-as-comedy
-purge, flavor regeneration); `project-42-worldbuilding` received separate
-canon work the same day (retrieval-ordering fixes, a paperwork-template
-retirement) that was never synced back. Neither copy alone is complete
-authority right now. This needs a real reconciliation pass, not a pick.
+## World Aflame retirement
+
+On 5 September 2026, the owner explicitly directed permanent deletion of `dancockrell/world-aflame` and `dancockrell/world-aflame-godot`. Both game repositories were deleted. This separate lore repository remains historical reference; it is not an active World Aflame implementation or a mandate to resume the old game.
+
+If card-game work returns, start with one coherent design document for the desired Snap-style game. The old rules, faction model, lore, and technical implementation are not automatically requirements for that future project.
+
+The former two-copy lore-divergence notice is historical. It does not describe two currently available GitHub sources or an active synchronization task.
+
+## Retained tone correction
+
+The later correction formerly recorded in World Aflame Godot issue 18 required pulp-adventure tone, rejected bureaucracy and paperwork as the horror device, and rejected preaching or a mandatory argumentative thesis. This summary preserves that correction for interpreting the remaining WW2 corpus now that the source issue's repository has been deleted. It does not make the corpus design authority for Pirate Island or a future card game.

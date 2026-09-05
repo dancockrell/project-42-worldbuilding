@@ -1,6 +1,6 @@
 # How to write a card
 
-> **Scope and supersession:** this is the retained WW2 card-authoring guide, not Pirate Island guidance. [The later tone correction](https://github.com/dancockrell/world-aflame-godot/issues/18) governs new writing. Any remaining demand for a thesis, institutional-horror framing, or seminar-style argument is historical and superseded. The rejection examples below remain evidence of past production failures.
+> **Scope and supersession:** this is the retained WW2 card-authoring guide, not Pirate Island guidance. [The retained tone correction](README.md#retained-tone-correction) governs new writing. Any remaining demand for a thesis, institutional-horror framing, or seminar-style argument is historical and superseded. The rejection examples below remain evidence of past production failures.
 
 Every entry is three things: a picture, a hundred words, and a story of five
 hundred. Nothing else. Read this whole page before you write your first one —
