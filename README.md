@@ -1,5 +1,7 @@
 # Project 42
 
+> **Scope and authority, 5 September 2026:** this repository preserves the alternate-WW2 setting used by World Aflame and earlier related games. It does not govern the fantasy Pirate Island RTS. The two existing lore copies still require reconciliation as recorded below. [The later tone correction](https://github.com/dancockrell/world-aflame-godot/issues/18) supersedes thesis-driven and bureaucracy-as-horror guidance: new writing uses pulp adventure, without preaching. Older passages remain development evidence, not permission to revive the rejected direction.
+
 Shared worldbuilding for an alternate-history Second World War, fought by three
 systems.
 
@@ -13,7 +15,7 @@ context can lose it.
 
 ---
 
-## The argument
+## Historical setting rationale
 
 The Kaiser is still on the throne in 1944. There were never any Nazis. And the
 horror happened anyway — because the machinery predated the man everyone
@@ -36,7 +38,7 @@ were, at the moment they did them, entirely justified in their own minds.
 
 | | |
 |---|---|
-| **`LORE-BIBLE.md`** | The authority. Where the bible and anything else disagree, the bible wins. Read §00 before writing a word of fiction. |
+| **`LORE-BIBLE.md`** | The retained WW2 lore corpus, subject to the later correction and unresolved cross-repository divergence described above. Its historical claim of unconditional precedence is superseded. |
 | **`source/volumes/`** | 36 deep documents — factions, sites, characters, timeline, art and sound direction. |
 | **`source/cards/`** | One entry per card. A hundred words of bio, five hundred of story. |
 | **`docs/`** | The generated site. Do not edit by hand. |
@@ -52,10 +54,7 @@ why you want it.
 because it has an interesting part in an interesting story, not because it
 hits hard.
 
-Stories are thought experiments. Each one has a thesis, and the thesis is
-demonstrated by construction rather than stated by a narrator. Characters are
-not liars; they have limits — of circumstance, of culture, of mind — and they
-report exactly what they perceive, and the reader sees past it.
+New stories should deliver character, action, and pulp-adventure stakes. The earlier requirement to construct each story around an argumentative thesis is superseded by the later tone correction. The retained source corpus has not been comprehensively rewritten or reconciled by this documentation audit.
 
 ## Building the site
 

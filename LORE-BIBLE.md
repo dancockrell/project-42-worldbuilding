@@ -1,5 +1,7 @@
 # PROJECT 42 — LORE BIBLE
 
+> **Retained WW2 lore corpus; qualified authority (5 September 2026).** This does not govern fantasy Pirate Island. Historical precedence and session-owner claims below are not current authority by themselves. Apply [the later tone correction](https://github.com/dancockrell/world-aflame-godot/issues/18) over contradictory thesis-driven or bureaucracy-as-horror passages. The repository README records unresolved divergence between the two lore copies; this audit preserves that evidence and does not claim a completed fiction reconciliation.
+
 **Volume I: The Constitution**
 Last revised 27 Aug 2026.
 

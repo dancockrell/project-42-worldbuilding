@@ -1,5 +1,7 @@
 # How to write a card
 
+> **Scope and supersession:** this is the retained WW2 card-authoring guide, not Pirate Island guidance. [The later tone correction](https://github.com/dancockrell/world-aflame-godot/issues/18) governs new writing. Any remaining demand for a thesis, institutional-horror framing, or seminar-style argument is historical and superseded. The rejection examples below remain evidence of past production failures.
+
 Every entry is three things: a picture, a hundred words, and a story of five
 hundred. Nothing else. Read this whole page before you write your first one —
 seven people are writing these and they have to read as one hand.
@@ -33,19 +35,9 @@ labels its property.
 S-tier here because its character has an interesting part in an interesting
 story, not because it hits hard.
 
-### Write the thesis first
+### Start with character and action
 
-Before a word of prose: **what is this story arguing?** One sentence. A story
-is a thought experiment — it constructs a scenario that carries the reader to
-a position, and the interest is in the position, not in a twist.
-
-Then, and only then, choose the location, the characters and the situation
-that will demonstrate it. In that order. A story assembled the other way round
-is a scene, and a scene argues nothing.
-
-The thesis should be **punchy and interesting**, and it should hold up in a
-university literature seminar. If you cannot say it in one sentence, you do not
-have one yet.
+Choose a character, a concrete goal, an obstacle, and an event with readable stakes. Use the accepted pulp-adventure tone. A story does not need an argumentative thesis or a lesson about war; do not construct a moral explanation for the reader.
 
 ### The narrator is not lying
 
@@ -60,8 +52,7 @@ it. If you have not found it, the story is not finished.
 
 ### Show it. Do not preach it.
 
-No line of the story tells the reader what to think. The construction does the
-arguing. If your last paragraph explains the point, cut the last paragraph —
+No line of the story tells the reader what to think. Let the action and the character carry the scene. If your last paragraph explains the point, cut the last paragraph —
 the story was already over.
 
 ### Hard rule: no paperwork in the deck, at all
